@@ -1,0 +1,752 @@
+{
+  "spec": [
+    {
+      "id": "S01",
+      "line": 9,
+      "statement": "Una app offline",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S02",
+      "line": 9,
+      "statement": "de una pantalla",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S03",
+      "line": 9,
+      "statement": "recibe monto",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S04",
+      "line": 9,
+      "statement": "recibe personas",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S05",
+      "line": 9,
+      "statement": "recibe propina",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S06",
+      "line": 10,
+      "statement": "permite elegir redondeo exacto",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S07",
+      "line": 10,
+      "statement": "permite elegir redondeo hacia arriba al entero",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S08",
+      "line": 10,
+      "statement": "muestra el valor por persona",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S09",
+      "line": 16,
+      "statement": "ingreso el monto total",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S10",
+      "line": 17,
+      "statement": "ingreso el número de personas",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S11",
+      "line": 17,
+      "statement": "ingreso el porcentaje de propina",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S12",
+      "line": 17,
+      "statement": "elijo el redondeo",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S13",
+      "line": 18,
+      "statement": "calculo cuánto paga cada persona",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S14",
+      "line": 22,
+      "statement": "Ingresar los valores de los seis escenarios y comprobar el resultado o mensaje indicado",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S15",
+      "line": 23,
+      "statement": "sin conexión de red",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S16",
+      "line": 27,
+      "statement": "100.00, 4 personas, 10%, exacto → 27.50",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S17",
+      "line": 28,
+      "statement": "90.00, 3 personas, 0%, exacto → 30.00",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S18",
+      "line": 29,
+      "statement": "50.00, 0 personas → Debe haber al menos una persona",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S19",
+      "line": 29,
+      "statement": "50.00, 0 personas → no se muestra resultado",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S20",
+      "line": 30,
+      "statement": "monto abc → Monto inválido",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S21",
+      "line": 31,
+      "statement": "10.00, 3 personas, 0%, exacto → 3.33",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S22",
+      "line": 32,
+      "statement": "10.00, 3 personas, 0%, arriba → 4.00",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S23",
+      "line": 36,
+      "statement": "cero personas: se informa el error",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S24",
+      "line": 36,
+      "statement": "cero personas: no se muestra un resultado anterior",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S25",
+      "line": 37,
+      "statement": "monto no numérico: Monto inválido",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S26",
+      "line": 37,
+      "statement": "monto no numérico: no se muestra resultado",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S27",
+      "line": 38,
+      "statement": "el cálculo exacto presenta dos decimales",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S28",
+      "line": 38,
+      "statement": "hacia arriba lleva al entero siguiente cuando tiene fracción",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S29",
+      "line": 44,
+      "statement": "FR-001: ingresar monto total",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S30",
+      "line": 44,
+      "statement": "FR-001: ingresar número de personas",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S31",
+      "line": 44,
+      "statement": "FR-001: ingresar porcentaje de propina",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S32",
+      "line": 44,
+      "statement": "FR-001: una sola pantalla",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S33",
+      "line": 45,
+      "statement": "FR-002: seleccionar redondeo exacto",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S34",
+      "line": 45,
+      "statement": "FR-002: seleccionar redondeo hacia arriba al entero",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S35",
+      "line": 46,
+      "statement": "FR-003: sumar la propina porcentual al total antes de dividir por las personas",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S36",
+      "line": 47,
+      "statement": "FR-004: valor por persona exacto con dos decimales",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S37",
+      "line": 48,
+      "statement": "FR-005: redondeo hacia el entero siguiente",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S38",
+      "line": 49,
+      "statement": "FR-006: cero personas produce Debe haber al menos una persona",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S39",
+      "line": 49,
+      "statement": "FR-006: cero personas no produce resultado",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S40",
+      "line": 50,
+      "statement": "FR-007: monto no numérico produce Monto inválido",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S41",
+      "line": 50,
+      "statement": "FR-007: monto no numérico no produce resultado",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S42",
+      "line": 51,
+      "statement": "FR-008: cálculos locales",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S43",
+      "line": 51,
+      "statement": "FR-008: sin red",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S44",
+      "line": 51,
+      "statement": "FR-008: sin base de datos",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S45",
+      "line": 55,
+      "statement": "Cuenta: monto total, cantidad de personas y porcentaje de propina",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S46",
+      "line": 56,
+      "statement": "Resultado: monto por persona luego de propina y redondeo",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S47",
+      "line": 57,
+      "statement": "Estrategia de redondeo: regla seleccionada para convertir el valor por persona",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S48",
+      "line": 63,
+      "statement": "SC-001: los seis escenarios producen exactamente el resultado o mensaje especificado",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S49",
+      "line": 64,
+      "statement": "SC-002: las entradas inválidas nunca muestran un resultado calculado",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S50",
+      "line": 65,
+      "statement": "SC-003: una sola pantalla",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S51",
+      "line": 65,
+      "statement": "SC-003: sin red",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S52",
+      "line": 65,
+      "statement": "SC-003: sin guardar datos",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S53",
+      "line": 66,
+      "statement": "SC-004: los seis escenarios se verifican repetiblemente con pruebas",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S54",
+      "line": 70,
+      "statement": "la propina es un porcentaje del monto total",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S55",
+      "line": 70,
+      "statement": "la propina se reparte entre las personas",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S56",
+      "line": 71,
+      "statement": "el modo exacto muestra dos decimales",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S57",
+      "line": 71,
+      "statement": "hacia arriba devuelve el entero siguiente por persona",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S58",
+      "line": 72,
+      "statement": "no se requiere persistencia",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S59",
+      "line": 72,
+      "statement": "no se requiere historial",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S60",
+      "line": 72,
+      "statement": "no se requiere autenticación",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S61",
+      "line": 72,
+      "statement": "no se requiere conexión de red",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    },
+    {
+      "id": "S62",
+      "line": 72,
+      "statement": "no se requieren más pantallas",
+      "type": "QUÉ",
+      "reuse": "Intacto"
+    }
+  ],
+  "constitution": [
+    {
+      "id": "C01",
+      "line": 6,
+      "original": "Cada clase tiene una razón de cambio",
+      "classification": "adaptada en redacción",
+      "react": "Cada función o módulo tiene una razón de cambio",
+      "reason": "Unidad de implementación en JavaScript"
+    },
+    {
+      "id": "C02",
+      "line": 6,
+      "original": "El cálculo no valida entradas",
+      "classification": "idéntica",
+      "react": "El cálculo no valida entradas",
+      "reason": "SRP independiente de tecnología"
+    },
+    {
+      "id": "C03",
+      "line": 6,
+      "original": "El cálculo no formatea moneda",
+      "classification": "idéntica",
+      "react": "El cálculo no formatea moneda",
+      "reason": "SRP independiente de tecnología"
+    },
+    {
+      "id": "C04",
+      "line": 7,
+      "original": "Validación, presentación y cálculo permanecen separados",
+      "classification": "idéntica",
+      "react": "Validación, presentación y cálculo permanecen separados",
+      "reason": "SRP"
+    },
+    {
+      "id": "C05",
+      "line": 10,
+      "original": "CalcularDivision depende de EstrategiaRedondeo",
+      "classification": "adaptada en redacción",
+      "react": "calcularDivision depende del contrato estrategiaRedondeo",
+      "reason": "Nombres JavaScript; misma abstracción"
+    },
+    {
+      "id": "C06",
+      "line": 11,
+      "original": "Agregar estrategia no modifica el cálculo",
+      "classification": "idéntica",
+      "react": "Agregar estrategia no modifica el cálculo",
+      "reason": "OCP"
+    },
+    {
+      "id": "C07",
+      "line": 11,
+      "original": "Agregar estrategia no modifica estrategias existentes",
+      "classification": "idéntica",
+      "react": "Agregar estrategia no modifica estrategias existentes",
+      "reason": "OCP"
+    },
+    {
+      "id": "C08",
+      "line": 14,
+      "original": "Cualquier implementación de EstrategiaRedondeo sustituye a otra",
+      "classification": "adaptada en redacción",
+      "react": "Cualquier implementación de estrategiaRedondeo sustituye a otra",
+      "reason": "Nombre del contrato"
+    },
+    {
+      "id": "C09",
+      "line": 15,
+      "original": "El calculador no pregunta el tipo concreto",
+      "classification": "idéntica",
+      "react": "El calculador no pregunta el tipo concreto",
+      "reason": "LSP"
+    },
+    {
+      "id": "C10",
+      "line": 15,
+      "original": "El calculador no hace casts",
+      "classification": "idéntica",
+      "react": "El calculador no hace casts",
+      "reason": "LSP; no se agregan comprobaciones de tipo"
+    },
+    {
+      "id": "C11",
+      "line": 18,
+      "original": "EstrategiaRedondeo expone un único método",
+      "classification": "adaptada en redacción",
+      "react": "estrategiaRedondeo expone una función aplicar(valor)",
+      "reason": "Contrato indicado en Parte 5"
+    },
+    {
+      "id": "C12",
+      "line": 19,
+      "original": "Ningún cliente depende de operaciones no usadas",
+      "classification": "idéntica",
+      "react": "Ningún cliente depende de operaciones no usadas",
+      "reason": "ISP"
+    },
+    {
+      "id": "C13",
+      "line": 22,
+      "original": "Presentación depende de abstracciones del domain",
+      "classification": "idéntica",
+      "react": "Presentación depende de abstracciones del domain",
+      "reason": "DIP"
+    },
+    {
+      "id": "C14",
+      "line": 22,
+      "original": "domain no importa Flutter",
+      "classification": "adaptada en redacción",
+      "react": "domain no importa React ni DOM",
+      "reason": "Parte 4 explicita el aislamiento equivalente"
+    },
+    {
+      "id": "C15",
+      "line": 23,
+      "original": "domain no depende de data",
+      "classification": "idéntica",
+      "react": "domain no depende de data",
+      "reason": "DIP"
+    },
+    {
+      "id": "C16",
+      "line": 23,
+      "original": "Solo main.dart instancia implementaciones concretas",
+      "classification": "adaptada en redacción",
+      "react": "Solo main.jsx compone implementaciones concretas",
+      "reason": "Punto de composición de React"
+    },
+    {
+      "id": "C17",
+      "line": 28,
+      "original": "Una pantalla para monto, personas, propina y resultado",
+      "classification": "idéntica",
+      "react": "Una pantalla para monto, personas, propina y resultado",
+      "reason": "Mismo alcance"
+    },
+    {
+      "id": "C18",
+      "line": 29,
+      "original": "Capas presentation, domain y data",
+      "classification": "idéntica",
+      "react": "Capas presentation, domain y data",
+      "reason": "Los nombres de las capas se conservan"
+    },
+    {
+      "id": "C19",
+      "line": 30,
+      "original": "presentation -> domain <- data",
+      "classification": "idéntica",
+      "react": "presentation -> domain <- data",
+      "reason": "Misma regla de dependencia"
+    },
+    {
+      "id": "C20",
+      "line": 31,
+      "original": "domain es Dart puro",
+      "classification": "adaptada en redacción",
+      "react": "domain es JavaScript puro",
+      "reason": "Cambio de lenguaje"
+    },
+    {
+      "id": "C21",
+      "line": 31,
+      "original": "Sin red",
+      "classification": "idéntica",
+      "react": "Sin red",
+      "reason": "Mismo requisito offline"
+    },
+    {
+      "id": "C22",
+      "line": 31,
+      "original": "Sin base de datos",
+      "classification": "idéntica",
+      "react": "Sin base de datos",
+      "reason": "Mismo alcance"
+    },
+    {
+      "id": "C23",
+      "line": 32,
+      "original": "No se agregan paquetes externos",
+      "classification": "reemplazada",
+      "react": "Solo React/React DOM y herramientas Vite, ESLint y pruebas exigidas",
+      "reason": "Las Partes 3 y 7 obligan a instalar paquetes npm"
+    },
+    {
+      "id": "C24",
+      "line": 32,
+      "original": "No se agregan secretos",
+      "classification": "idéntica",
+      "react": "No se agregan secretos",
+      "reason": "Misma seguridad"
+    },
+    {
+      "id": "C25",
+      "line": 33,
+      "original": "Se usa null safety",
+      "classification": "reemplazada",
+      "react": "Validación explícita de números y ausencia de resultado con null",
+      "reason": "JavaScript carece de null safety estática de Dart"
+    },
+    {
+      "id": "C26",
+      "line": 33,
+      "original": "Nombres en español",
+      "classification": "idéntica",
+      "react": "Nombres en español",
+      "reason": "Misma convención"
+    },
+    {
+      "id": "C27",
+      "line": 37,
+      "original": "Cada criterio tiene una prueba ejecutable",
+      "classification": "idéntica",
+      "react": "Cada criterio tiene una prueba ejecutable",
+      "reason": "Misma calidad"
+    },
+    {
+      "id": "C28",
+      "line": 38,
+      "original": "Cálculo crítico tiene pruebas sin widgets",
+      "classification": "adaptada en redacción",
+      "react": "Cálculo crítico tiene pruebas sin React ni DOM",
+      "reason": "Vitest ejecuta el núcleo puro"
+    },
+    {
+      "id": "C29",
+      "line": 38,
+      "original": "Pantalla tiene pruebas de widgets",
+      "classification": "adaptada en redacción",
+      "react": "Pantalla tiene pruebas del DOM con Testing Library",
+      "reason": "Cambia la herramienta de UI"
+    },
+    {
+      "id": "C30",
+      "line": 39,
+      "original": "Pasar flutter test",
+      "classification": "reemplazada",
+      "react": "Pasar npm test",
+      "reason": "Runner requerido en Parte 7"
+    },
+    {
+      "id": "C31",
+      "line": 39,
+      "original": "Pasar flutter analyze",
+      "classification": "reemplazada",
+      "react": "Pasar npm run lint",
+      "reason": "Comprobación estática equivalente de plantilla Vite"
+    },
+    {
+      "id": "C32",
+      "line": 40,
+      "original": "Pasar flutter build apk --debug",
+      "classification": "reemplazada",
+      "react": "Pasar npm run build",
+      "reason": "Producto web, no APK"
+    },
+    {
+      "id": "C33",
+      "line": 41,
+      "original": "Estudiante explica propósito, entradas, salida y errores de cada función",
+      "classification": "idéntica",
+      "react": "Estudiante explica propósito, entradas, salida y errores de cada función",
+      "reason": "Misma obligación personal"
+    },
+    {
+      "id": "C34",
+      "line": 46,
+      "original": "La constitución prevalece sobre plan y código",
+      "classification": "idéntica",
+      "react": "La constitución prevalece sobre plan y código",
+      "reason": "Misma gobernanza"
+    },
+    {
+      "id": "C35",
+      "line": 48,
+      "original": "Cada cambio requiere actualizar el archivo",
+      "classification": "idéntica",
+      "react": "Cada cambio requiere actualizar el archivo",
+      "reason": "Misma gobernanza"
+    },
+    {
+      "id": "C36",
+      "line": 48,
+      "original": "Cada cambio requiere actualizar la versión",
+      "classification": "idéntica",
+      "react": "Cada cambio requiere actualizar la versión",
+      "reason": "Misma gobernanza"
+    },
+    {
+      "id": "C37",
+      "line": 48,
+      "original": "Revisión comprueba capas",
+      "classification": "idéntica",
+      "react": "Revisión comprueba capas",
+      "reason": "Misma gobernanza"
+    },
+    {
+      "id": "C38",
+      "line": 49,
+      "original": "Revisión comprueba los cinco SOLID",
+      "classification": "idéntica",
+      "react": "Revisión comprueba los cinco SOLID",
+      "reason": "Misma gobernanza"
+    },
+    {
+      "id": "C39",
+      "line": 49,
+      "original": "Revisión comprueba pruebas requeridas por spec",
+      "classification": "idéntica",
+      "react": "Revisión comprueba pruebas requeridas por spec",
+      "reason": "Misma gobernanza"
+    }
+  ]
+}
