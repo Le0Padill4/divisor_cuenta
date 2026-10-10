@@ -81,7 +81,7 @@ El **30 % es el umbral pedagógico de este deber, no una regla universal de SDD*
 
 ## Constitution (separada de la spec)
 
-Origen: `.specify/memory/constitution.md` del proyecto Flutter. La columna React describe la adaptación prevista, que se comprobará después con el diff.
+Origen: `.specify/memory/constitution.md` del proyecto Flutter. La columna React describe la adaptación ejecutada, comprobada en evidencias/constitution.diff.
 
 | ID y regla original (línea Flutter) | Clasificación | Redacción React | Justificación |
 |---|---|---|---|
@@ -107,7 +107,7 @@ Origen: `.specify/memory/constitution.md` del proyecto Flutter. La columna React
 | C20 · L31 · domain es Dart puro | adaptada en redacción | domain es JavaScript puro | Cambio de lenguaje |
 | C21 · L31 · Sin red | idéntica | Sin red | Mismo requisito offline |
 | C22 · L31 · Sin base de datos | idéntica | Sin base de datos | Mismo alcance |
-| C23 · L32 · No se agregan paquetes externos | reemplazada | Solo React/React DOM y herramientas Vite, ESLint y pruebas exigidas | Las Partes 3 y 7 obligan a instalar paquetes npm |
+| C23 · L32 · No se agregan paquetes externos | reemplazada | Solo React/React DOM y herramientas Vite, Oxlint y pruebas exigidas | Las Partes 3 y 7 obligan a instalar paquetes npm |
 | C24 · L32 · No se agregan secretos | idéntica | No se agregan secretos | Misma seguridad |
 | C25 · L33 · Se usa null safety | reemplazada | Validación explícita de números y ausencia de resultado con null | JavaScript carece de null safety estática de Dart |
 | C26 · L33 · Nombres en español | idéntica | Nombres en español | Misma convención |
@@ -127,10 +127,31 @@ Origen: `.specify/memory/constitution.md` del proyecto Flutter. La columna React
 
 Total Constitution: **39 reglas atómicas**; idéntica: 25; adaptada en redacción: 9; reemplazada: 5.
 
-No se añaden principios SOLID nuevos. DOM explicita el equivalente web de no depender del framework; la lista npm está impuesta por las Partes 3 y 7, y ESLint conserva la comprobación estática existente. El lenguaje y los runners sí requieren reemplazo. No se conserva como idéntica la prohibición absoluta de paquetes externos ni se afirma que JavaScript tenga null safety.
+No se añaden principios SOLID nuevos. DOM explicita el equivalente web de no depender del framework; la lista npm está impuesta por las Partes 3 y 7, y Oxlint conserva la comprobación estática existente. El lenguaje y los runners sí requieren reemplazo. No se conserva como idéntica la prohibición absoluta de paquetes externos ni se afirma que JavaScript tenga null safety.
 
 ## Trabajo personal pendiente
 
 - Rehacer o revisar personalmente el análisis de la Parte 2 y sus denominadores antes de presentarlo como propio.
 - Escribir personalmente `test/casosDePrueba.js` (Parte 7.2), conservando entradas, mensajes y esperados. El archivo generado por Codex será un borrador funcional.
 - Explicar cada función y revisar las seis respuestas antes de entregar.
+
+## Evidencia final y procedencia Git
+
+- Spec inicial: evidencias/spec-inicial.diff vacío (0 bytes, código 0), commit d56ce40.
+- Spec final: evidencias/spec-final.diff vacío (0 bytes, código 0).
+- SHA-256 original y React: 36d61f7e911a07eb5d8de81a52b88ac66ae4d1593d12c5a22827e5a46c0046de.
+- Constitution: commit 2c049f0, evidencias/constitution.diff; plan: 228f4b2 y ajustes
+  de versiones resueltas/empates en 5f7402e. No existe cambio separado de spec porque no se cambió.
+- Escenarios: scripts/comparar-casos.mjs confirmó 6/6 idénticos incluyendo NaN.
+- El inventario Constitution tiene 39 obligaciones originales: 25 idénticas, 9
+  adaptadas, 5 reemplazadas; metadatos versión/fecha no son obligaciones.
+- React Constitution conserva las cinco secciones SOLID. C23 sustituye paquetes
+  para cumplir las Partes 3 y 7; no librerías de estado explicita Parte 5, no un
+  principio inventado. C25 sustituye null safety estática por validación explícita.
+- El inventario de plan tiene 51 enunciados originales; 27 requirieron adaptación
+  y 24 conservaron significado. Ver evidencias/plan-enunciados.md.
+
+Citas Constitution React: SRP L6–7, OCP L10–11, LSP L14–15, ISP L18–19,
+DIP L22–24, restricciones L28–37, pruebas/aprendizaje L41–45, gobernanza L49–52.
+Las reglas originales y sus líneas están en la tabla anterior y snapshot
+evidencias/flutter/constitution.md.

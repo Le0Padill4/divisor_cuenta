@@ -617,7 +617,7 @@
       "line": 32,
       "original": "No se agregan paquetes externos",
       "classification": "reemplazada",
-      "react": "Solo React/React DOM y herramientas Vite, ESLint y pruebas exigidas",
+      "react": "Solo React/React DOM y herramientas Vite, Oxlint y pruebas exigidas",
       "reason": "Las Partes 3 y 7 obligan a instalar paquetes npm"
     },
     {

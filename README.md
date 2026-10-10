@@ -1,17 +1,23 @@
-# divisor_cuenta
+# Divisor de cuenta — Flutter SDD
 
-A new Flutter project.
+Original del laboratorio, exportado de ClaseApps/sdd sin modificar su spec ni código.
+[Procedencia e historial](PROCEDENCIA.md).
 
-## Getting Started
+```sh
+flutter pub get
+flutter test
+```
 
-This project is a starting point for a Flutter application.
+Verificación actual: 10/10 pruebas (6 aceptación + 1 LSP + 3 pantalla),
+[evidencia](evidencias/flutter-test.txt).
 
-A few resources to get you started if this is your first Flutter project:
+- [Bitácora Deber 2](bitacora.md)
+- [Borrador de análisis para revisión personal](analisis_spec.md)
+- [Spec original](specs/001-divisor-cuenta/spec.md)
+- [React y seis respuestas](https://github.com/Le0Padill4/divisor_cuenta_web/tree/sdd)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Las Partes 2 y 7.2 requieren trabajo personal del estudiante. Codex preparó los
+borradores; no se los presenta como escritos a mano por Leonardo.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+El repositorio fuente ClaseApps y su rama sdd se conservan. No se modificó lib/,
+test/ ni la Constitution Flutter para hacer la migración.
