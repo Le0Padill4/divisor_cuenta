@@ -86,3 +86,12 @@ No se infieren métricas del laboratorio a partir de fechas de commits ni de rec
 
 Todas las salidas relevantes se guardan en evidencias/ del proyecto React. La salida
 Flutter también se conserva en evidencias/ del original independiente.
+
+## Publicación verificada
+
+Ambos repositorios públicos creados y enviados sin force-push; rama predeterminada sdd.
+- https://github.com/Le0Padill4/divisor_cuenta
+- https://github.com/Le0Padill4/divisor_cuenta_web
+
+Comandos y salidas en github-publicacion.{txt,json}, flutter-github-publicacion.{txt,json}
+y publicacion.json. ClaseApps original permanece en dd58c42, sin cambios de trabajo.

@@ -1,0 +1,4 @@
+https://github.com/Le0Padill4/divisor_cuenta
+To https://github.com/Le0Padill4/divisor_cuenta.git
+ * [new branch]      HEAD -> sdd
+branch 'sdd' set up to track 'origin/sdd'.
