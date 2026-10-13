@@ -11,6 +11,9 @@ class ValidarEntrada {
     if (!cuenta.porcentajePropina.isFinite) {
       return 'Propina inválida';
     }
+    if (cuenta.porcentajePropina > 100) {
+      return 'La propina no puede superar el 100%';
+    }
     return null;
   }
 }
