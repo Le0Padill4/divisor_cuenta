@@ -1,0 +1,16 @@
+$ git log --oneline
+bc4e5df refactor: numero magico en limite de propina
+e5371b0 verde: propina maxima 100
+0dd51cd rojo: pruebas de propina maxima 100
+2e98ebe docs: registra publicacion verificable de Deber 2
+4a3fcb5 docs: finaliza bitacora Flutter y analisis comparativo de Deber 2
+47604f1 docs: prepara analisis de enunciados para revision personal
+61801e5 docs: inicia bitacora de Deber 2 y verifica Flutter original
+56c9b29 chore(sdd): elimina paquetes Flutter no usados
+bca3acb docs(sdd): registra la comparación cruzada con vibe
+d2bb3a8 feat(sdd): implementa divisor por capas con pruebas
+3ada6fe docs(sdd): agrega plan, tareas y análisis de diseño
+cf2ce74 docs(sdd): especifica el divisor y cierra ambiguedades
+9b4f477 docs(sdd): establece constitucion SOLID y arquitectura
+0d5c2ab chore(sdd): inicializa GitHub Spec Kit y reglas del agente
+3cf30d4 semana 7: proyecto Flutter base divisor de cuenta

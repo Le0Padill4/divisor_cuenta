@@ -1,0 +1,46 @@
+{
+  "command": [
+    "flutter",
+    "analyze"
+  ],
+  "cwd": "/Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta",
+  "startedAtUtc": "2026-10-13T00:55:55.380235+00:00",
+  "branch": "deber3",
+  "headBefore": "e5371b0e603d9f8e23fe44dc87d0034665424896",
+  "filesBefore": {
+    "lib/main.dart": "cb1ec68fd359c222e7d8ff84fe72596497fca63a041743c3450319919d5cdab2",
+    "lib/data/redondeo_exacto.dart": "081b41827753648fff4e4f4ac471db209683db27f77d810a10c64f4609702ff4",
+    "lib/data/redondeo_hacia_arriba.dart": "082b4ed662dd2a49abaf399069624959feed511d0995dff260b7f677ed767bbb",
+    "lib/domain/resultado.dart": "ec0d11476e25644d1bdb7384adb03eabf3c0346fa6f0cbcb8be105d72ecd7c7e",
+    "lib/domain/cuenta.dart": "12ed70f201a17eb98380a1f19c788e45a06a7508512c5edfad53db32ee702d5e",
+    "lib/domain/validar_entrada.dart": "cad477204e846bdc5f60560854b300ca7d1be145855a3cfa4d173d97bbbfaf3b",
+    "lib/domain/calcular_division.dart": "6b5756324d2ea880d7d49ef68986933ebcc62dc0013fd5c0c3e53873f97f974e",
+    "lib/domain/estrategia_redondeo.dart": "75a0fd8e1f5be784392b46fe541037fdaa5d81cd4c7fc84b6752e0d8da61a1f4",
+    "lib/presentation/formateador_moneda.dart": "ebd0d3607caa7819e577c33480d0611ec3508ecc751036583b4aab183084db97",
+    "lib/presentation/pantalla_divisor.dart": "44bff7815ae968fde5c16e671ce0dcb8ef7fc5773d5ea9b2006a385d6b53c833",
+    "lib/presentation/divisor_controller.dart": "3712111a7060c7af79b2df7784716a678d78e899819e7d2f6f421a4d2707e39c",
+    "test/division_test.dart": "ae99068460aeabd2029ccc38bbd3c6ab1594f004718dfce69ad94d6d706163a6",
+    "test/pantalla_test.dart": "d3058fb35b06d213485a989d2d7112860b681c7fc9b00d3462308fa615d59564",
+    "test/casos_de_prueba.dart": "3c213b529952f821c8595b434ed6c9d7e733ee1cc40833619f2bb7829b675757"
+  },
+  "finishedAtUtc": "2026-10-13T00:55:56.906243+00:00",
+  "elapsedSeconds": 1.526008,
+  "exitCode": 1,
+  "filesAfter": {
+    "lib/main.dart": "cb1ec68fd359c222e7d8ff84fe72596497fca63a041743c3450319919d5cdab2",
+    "lib/data/redondeo_exacto.dart": "081b41827753648fff4e4f4ac471db209683db27f77d810a10c64f4609702ff4",
+    "lib/data/redondeo_hacia_arriba.dart": "082b4ed662dd2a49abaf399069624959feed511d0995dff260b7f677ed767bbb",
+    "lib/domain/resultado.dart": "ec0d11476e25644d1bdb7384adb03eabf3c0346fa6f0cbcb8be105d72ecd7c7e",
+    "lib/domain/cuenta.dart": "12ed70f201a17eb98380a1f19c788e45a06a7508512c5edfad53db32ee702d5e",
+    "lib/domain/validar_entrada.dart": "cad477204e846bdc5f60560854b300ca7d1be145855a3cfa4d173d97bbbfaf3b",
+    "lib/domain/calcular_division.dart": "6b5756324d2ea880d7d49ef68986933ebcc62dc0013fd5c0c3e53873f97f974e",
+    "lib/domain/estrategia_redondeo.dart": "75a0fd8e1f5be784392b46fe541037fdaa5d81cd4c7fc84b6752e0d8da61a1f4",
+    "lib/presentation/formateador_moneda.dart": "ebd0d3607caa7819e577c33480d0611ec3508ecc751036583b4aab183084db97",
+    "lib/presentation/pantalla_divisor.dart": "44bff7815ae968fde5c16e671ce0dcb8ef7fc5773d5ea9b2006a385d6b53c833",
+    "lib/presentation/divisor_controller.dart": "3712111a7060c7af79b2df7784716a678d78e899819e7d2f6f421a4d2707e39c",
+    "test/division_test.dart": "ae99068460aeabd2029ccc38bbd3c6ab1594f004718dfce69ad94d6d706163a6",
+    "test/pantalla_test.dart": "d3058fb35b06d213485a989d2d7112860b681c7fc9b00d3462308fa615d59564",
+    "test/casos_de_prueba.dart": "3c213b529952f821c8595b434ed6c9d7e733ee1cc40833619f2bb7829b675757"
+  },
+  "gitStatusAfter": "M lib/domain/validar_entrada.dart"
+}

@@ -1,0 +1,24 @@
+$ flutter test --coverage --reporter expanded
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+Got dependencies!
+4 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart
+00:00 +0: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart: 1. reparto normal
+00:00 +1: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart: 2. sin propina
+00:00 +2: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart: 3. cero personas
+00:00 +3: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart: 4. monto no numerico
+00:00 +4: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart: 5. redondeo exacto
+00:00 +5: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart: 6. redondeo hacia arriba
+00:00 +6: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart: propina de 150 devuelve el error de máximo 100%
+00:00 +7: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart: propina de exactamente 100 no devuelve error
+00:00 +8: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart: CalcularDivision acepta ambas estrategias sin conocer su tipo
+00:00 +9: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+00:00 +10: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: cero personas muestra error y no resultado
+00:00 +11: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: monto no numérico muestra error
+00:00 +12: All tests passed!
