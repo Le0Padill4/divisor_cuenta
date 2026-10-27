@@ -1,0 +1,82 @@
+[
+  {
+    "sourceUrl": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40557792436/job/122378397802",
+    "capturedAtUtc": "2026-10-27T18:18:37.388Z",
+    "method": "Captura auténtica de Safari con cua_repl",
+    "originalFile": "parte1_ci_verde.capture.jpg",
+    "archivo_png": "evidencias/parte1_ci_verde.png",
+    "sha256_jpeg_original": "46a8d2ba860f096b151433580eb555baa6c6005e80cef756c56a7c39e2a03e0f",
+    "sha256_png": "2cf3299ce876b0f6d70b6ff52591df50c5dd004212c5423b5ff8b660f33ce1ce",
+    "conversion": "JPEG a PNG con sips, sin recortar ni modificar contenido"
+  },
+  {
+    "sourceUrl": "https://github.com/Le0Padill4/divisor_cuenta/settings/branch_protection_rules/85435775",
+    "capturedAtUtc": "2026-10-27T18:20:45.713Z",
+    "method": "Captura auténtica de Safari con cua_repl",
+    "originalFile": "parte2_rama_main.capture.jpg",
+    "archivo_png": "evidencias/parte2_rama_main.png",
+    "sha256_jpeg_original": "7721d38771e2be788bfea8ae7cb70d92d60f1d47ca261ac28b3a2d32e01aabec",
+    "sha256_png": "24c6a49efef79f1aafaaed57b20b88402cdf73cafa73f2c59f1430e777f0409b",
+    "conversion": "JPEG a PNG con sips, sin recortar ni modificar contenido"
+  },
+  {
+    "sourceUrl": "https://github.com/Le0Padill4/divisor_cuenta/settings/branch_protection_rules/85435775",
+    "capturedAtUtc": "2026-10-27T18:20:55.855Z",
+    "method": "Captura auténtica de Safari con cua_repl",
+    "originalFile": "parte2_proteccion.capture.jpg",
+    "archivo_png": "evidencias/parte2_proteccion.png",
+    "sha256_jpeg_original": "ae95144163d20732470b0ac6ca63d1fa8cd10d22f86f6fa266d0ba79773d1c8e",
+    "sha256_png": "f7d297c92dffff9526258f9d36a97446abd52582dd8651f5a7f39e8791012fab",
+    "conversion": "JPEG a PNG con sips, sin recortar ni modificar contenido"
+  },
+  {
+    "sourceUrl": "https://github.com/Le0Padill4/divisor_cuenta/settings/branch_protection_rules/85435775",
+    "capturedAtUtc": "2026-10-27T18:23:10.595Z",
+    "method": "Captura auténtica de Safari con cua_repl",
+    "originalFile": "parte2_sin_bypass.capture.jpg",
+    "archivo_png": "evidencias/parte2_sin_bypass.png",
+    "sha256_jpeg_original": "135a3b0cf7f134c865b64bd4cdd7bfde2e7b60b328da922fcbcedcc4531a2038",
+    "sha256_png": "725df9b1ef719552ae04600688dd1fbea6f890fc87675e91bee5e8adf8db372b",
+    "conversion": "JPEG a PNG con sips, sin recortar ni modificar contenido"
+  },
+  {
+    "sourceUrl": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40558941427/job/122382428944",
+    "capturedAtUtc": "2026-10-27T18:25:00.367Z",
+    "method": "Captura auténtica de Safari con cua_repl",
+    "originalFile": "parte3_rojo.capture.jpg",
+    "archivo_png": "evidencias/parte3_rojo.png",
+    "sha256_jpeg_original": "d169d048b8d37764477fc46ab627e9e2fb8166b7becb0576c3a6b7d33af43a0d",
+    "sha256_png": "e9b83d790defaf40d576736a633a969310f9de2474785158c22a54a547308149",
+    "conversion": "JPEG a PNG con sips, sin recortar ni modificar contenido"
+  },
+  {
+    "sourceUrl": "https://github.com/Le0Padill4/divisor_cuenta/pull/3",
+    "capturedAtUtc": "2026-10-27T18:26:00.909Z",
+    "method": "Captura auténtica de Safari con cua_repl",
+    "originalFile": "parte3_merge_bloqueado.capture.jpg",
+    "archivo_png": "evidencias/parte3_merge_bloqueado.png",
+    "sha256_jpeg_original": "3885ccb353e6d1e7cf1aab447f7413b31ce5a8291b19ce30b7de6149bb0c344d",
+    "sha256_png": "1b6c5020c8ebedfea234a1c81c57bee18840bbff43a3b17ff2561d43fb5956c1",
+    "conversion": "JPEG a PNG con sips, sin recortar ni modificar contenido"
+  },
+  {
+    "sourceUrl": "https://github.com/Le0Padill4/divisor_cuenta/pull/3",
+    "capturedAtUtc": "2026-10-27T18:33:58.009Z",
+    "method": "Captura auténtica de Safari con cua_repl",
+    "originalFile": "parte3_verde_otra_vez.capture.jpg",
+    "archivo_png": "evidencias/parte3_verde_otra_vez.png",
+    "sha256_jpeg_original": "6ad2641316c8521f787c4df0e467a4d31704d5125c9996a6fce4abf4cbd74012",
+    "sha256_png": "e23d340516c6db71d5811ac7ace0bc6b8b0a15d00c85402b550a890124fde56a",
+    "conversion": "JPEG a PNG con sips, sin recortar ni modificar contenido"
+  },
+  {
+    "sourceUrl": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40562278119#artifacts",
+    "capturedAtUtc": "2026-10-27T18:55:50.482Z",
+    "method": "Captura auténtica de Safari con cua_repl",
+    "originalFile": "parte4_artifact.capture.jpg",
+    "archivo_png": "evidencias/parte4_artifact.png",
+    "sha256_jpeg_original": "3d192f4a9a3c733907ddd1ec8a705d55bfd894c6439e383daefb4af8694bfdd8",
+    "sha256_png": "674f0270879d9a2158a2cf841e8c582beec31454890726656c305414a738270e",
+    "conversion": "JPEG a PNG con sips, sin recortar ni modificar contenido"
+  }
+]

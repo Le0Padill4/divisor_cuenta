@@ -1,0 +1,129 @@
+{
+  "conclusion": "success",
+  "createdAt": "2026-10-27T18:34:49Z",
+  "databaseId": 40561286523,
+  "event": "pull_request",
+  "headSha": "c6b85cb6b37c0fd251679d86bd82e5b2a2615f64",
+  "jobs": [
+    {
+      "completedAt": "2026-10-27T18:39:23Z",
+      "conclusion": "success",
+      "databaseId": 122390684702,
+      "name": "verificar",
+      "startedAt": "2026-10-27T18:34:51Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-27T18:34:54Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-27T18:34:52Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:34:55Z",
+          "conclusion": "success",
+          "name": "Obtener el proyecto",
+          "number": 2,
+          "startedAt": "2026-10-27T18:34:54Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:34:55Z",
+          "conclusion": "success",
+          "name": "Preparar Java",
+          "number": 3,
+          "startedAt": "2026-10-27T18:34:55Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:35:52Z",
+          "conclusion": "success",
+          "name": "Preparar Flutter estable",
+          "number": 4,
+          "startedAt": "2026-10-27T18:34:55Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:35:57Z",
+          "conclusion": "success",
+          "name": "Instalar dependencias",
+          "number": 5,
+          "startedAt": "2026-10-27T18:35:52Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:36:05Z",
+          "conclusion": "success",
+          "name": "Analizar el c\u00f3digo",
+          "number": 6,
+          "startedAt": "2026-10-27T18:35:57Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:36:16Z",
+          "conclusion": "success",
+          "name": "Ejecutar las pruebas",
+          "number": 7,
+          "startedAt": "2026-10-27T18:36:05Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:39:21Z",
+          "conclusion": "success",
+          "name": "Compilar el APK de depuraci\u00f3n",
+          "number": 8,
+          "startedAt": "2026-10-27T18:36:16Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:39:22Z",
+          "conclusion": "success",
+          "name": "Post Preparar Flutter estable",
+          "number": 14,
+          "startedAt": "2026-10-27T18:39:22Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:39:22Z",
+          "conclusion": "success",
+          "name": "Post Preparar Java",
+          "number": 15,
+          "startedAt": "2026-10-27T18:39:22Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:39:22Z",
+          "conclusion": "success",
+          "name": "Post Obtener el proyecto",
+          "number": 16,
+          "startedAt": "2026-10-27T18:39:22Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:39:22Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 17,
+          "startedAt": "2026-10-27T18:39:22Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40561286523/job/122390684702"
+    },
+    {
+      "completedAt": "2026-10-27T18:39:24Z",
+      "conclusion": "skipped",
+      "databaseId": 122393169952,
+      "name": "entrega",
+      "startedAt": "2026-10-27T18:39:24Z",
+      "status": "completed",
+      "steps": [],
+      "url": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40561286523/job/122393169952"
+    }
+  ],
+  "status": "completed",
+  "updatedAt": "2026-10-27T18:39:24Z",
+  "url": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40561286523"
+}

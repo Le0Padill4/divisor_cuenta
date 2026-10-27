@@ -1,0 +1,46 @@
+verificar	Ejecutar las pruebas	﻿2026-10-27T18:21:06.6581629Z ##[group]Run flutter test
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.6582085Z ^[[36;1mflutter test^[[0m
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.6663800Z shell: /usr/bin/bash -e {0}
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.6664205Z env:
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.6664701Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.6665580Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.6666246Z   MAVEN_ARGS: -ntp
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.6666770Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.47.8-x64/flutter
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.6667409Z   PUB_CACHE: /home/runner/.pub-cache
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.6667822Z ##[endgroup]
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.8236192Z Resolving dependencies...
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.8455869Z Downloading packages...
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.8465853Z   material_color_utilities 0.13.0 (0.13.1 available)
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.8466563Z   meta 1.18.3 (1.19.0 available)
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.8467097Z   test_api 0.7.12 (0.7.15 available)
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.8467666Z   vector_math 2.4.0 (2.4.4 available)
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.8468294Z   vm_service 15.3.0 (15.4.0 available)
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.8468593Z Got dependencies!
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.8468970Z 5 packages have newer versions incompatible with dependency constraints.
+verificar	Ejecutar las pruebas	2026-10-27T18:21:06.8469482Z Try `flutter pub outdated` for more information.
+verificar	Ejecutar las pruebas	2026-10-27T18:21:07.4648401Z 
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4507964Z ##[group]❌ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 1. reparto normal (failed)
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4509888Z Expected: a numeric value within <0.001> of <27.0>
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4511127Z   Actual: <27.5>
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4511942Z    Which:  differs by <0.5>
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4512531Z 
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4524022Z package:matcher                                     expect
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4525044Z package:flutter_test/src/widget_tester.dart 473:18  expect
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4526144Z test/division_test.dart 33:7                        main.<fn>
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4527423Z ##[endgroup]
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4573064Z ##[group]✅ Passing tests
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4603727Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 2. sin propina
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4621660Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 3. cero personas
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4632580Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 4. monto no numerico
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4660878Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 5. redondeo exacto
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4696999Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 6. redondeo hacia arriba
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4729896Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: propina de 150 devuelve el error de máximo 100%
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4771991Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: propina de exactamente 100 no devuelve error
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4781725Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: CalcularDivision acepta ambas estrategias sin conocer su tipo
+verificar	Ejecutar las pruebas	2026-10-27T18:21:16.6705187Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+verificar	Ejecutar las pruebas	2026-10-27T18:21:16.8459438Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/pantalla_test.dart: cero personas muestra error y no resultado
+verificar	Ejecutar las pruebas	2026-10-27T18:21:17.0016439Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/pantalla_test.dart: monto no numérico muestra error
+verificar	Ejecutar las pruebas	2026-10-27T18:21:17.0221692Z ##[endgroup]
+verificar	Ejecutar las pruebas	2026-10-27T18:21:17.0222009Z 
+verificar	Ejecutar las pruebas	2026-10-27T18:21:17.0252120Z ##[error]11 tests passed, 1 failed.
+verificar	Ejecutar las pruebas	2026-10-27T18:21:17.0797794Z ##[error]Process completed with exit code 1.

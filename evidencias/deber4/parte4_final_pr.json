@@ -1,0 +1,13 @@
+{
+  "baseRefName": "main",
+  "headRefName": "ci/entrega",
+  "headRefOid": "c6b85cb6b37c0fd251679d86bd82e5b2a2615f64",
+  "mergeCommit": {
+    "oid": "078deb27a1c6e5d7053fa5ec0394197f094dd457"
+  },
+  "mergedAt": "2026-10-27T18:41:14Z",
+  "number": 4,
+  "state": "MERGED",
+  "title": "CD: entregar el APK verificado como artifact de Actions",
+  "url": "https://github.com/Le0Padill4/divisor_cuenta/pull/4"
+}

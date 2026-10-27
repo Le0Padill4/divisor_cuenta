@@ -1,0 +1,929 @@
+verificar	Set up job	﻿2026-10-27T18:41:21.4375130Z Current runner version: '2.338.0'
+verificar	Set up job	2026-10-27T18:41:21.4392257Z ##[group]Runner Image Provisioner
+verificar	Set up job	2026-10-27T18:41:21.4392902Z Hosted Compute Agent
+verificar	Set up job	2026-10-27T18:41:21.4393380Z Version: 20261021.618
+verificar	Set up job	2026-10-27T18:41:21.4393833Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+verificar	Set up job	2026-10-27T18:41:21.4394310Z Build Date: 2026-10-21T00:45:21Z
+verificar	Set up job	2026-10-27T18:41:21.4394864Z Worker ID: {216d2acf-4783-488d-b4e5-c46a47a53679}
+verificar	Set up job	2026-10-27T18:41:21.4395362Z Region: centralus
+verificar	Set up job	2026-10-27T18:41:21.4395743Z Cloud: Azure
+verificar	Set up job	2026-10-27T18:41:21.4396114Z ##[endgroup]
+verificar	Set up job	2026-10-27T18:41:21.4397031Z ##[group]Operating System
+verificar	Set up job	2026-10-27T18:41:21.4397457Z Ubuntu
+verificar	Set up job	2026-10-27T18:41:21.4397805Z 24.04.5
+verificar	Set up job	2026-10-27T18:41:21.4398244Z LTS
+verificar	Set up job	2026-10-27T18:41:21.4398640Z ##[endgroup]
+verificar	Set up job	2026-10-27T18:41:21.4399061Z ##[group]Runner Image
+verificar	Set up job	2026-10-27T18:41:21.4399516Z Image: ubuntu-24.04
+verificar	Set up job	2026-10-27T18:41:21.4399897Z Version: 20261012.334.1
+verificar	Set up job	2026-10-27T18:41:21.4400990Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+verificar	Set up job	2026-10-27T18:41:21.4402501Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+verificar	Set up job	2026-10-27T18:41:21.4403147Z ##[endgroup]
+verificar	Set up job	2026-10-27T18:41:21.4403911Z ##[group]GITHUB_TOKEN Permissions
+verificar	Set up job	2026-10-27T18:41:21.4405420Z Contents: read
+verificar	Set up job	2026-10-27T18:41:21.4405827Z Metadata: read
+verificar	Set up job	2026-10-27T18:41:21.4406190Z ##[endgroup]
+verificar	Set up job	2026-10-27T18:41:21.4407603Z Secret source: Actions
+verificar	Set up job	2026-10-27T18:41:21.4408225Z Cache mode: write
+verificar	Set up job	2026-10-27T18:41:21.4408747Z Prepare workflow directory
+verificar	Set up job	2026-10-27T18:41:21.4635200Z Prepare all required actions
+verificar	Set up job	2026-10-27T18:41:21.4672935Z Getting action download info
+verificar	Set up job	2026-10-27T18:41:21.7185205Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+verificar	Set up job	2026-10-27T18:41:21.8026382Z Download action repository 'actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad' (SHA:b843ebf9b913146b38da2eaa7aeddf76074ae1ad)
+verificar	Set up job	2026-10-27T18:41:22.6552934Z Download action repository 'subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2' (SHA:1a449444c387b1966244ae4d4f8c696479add0b2)
+verificar	Set up job	2026-10-27T18:41:22.9858587Z Getting action download info
+verificar	Set up job	2026-10-27T18:41:23.1017320Z Download action repository 'actions/cache@v5' (SHA:caa296126883cff596d87d8935842f9db880ef25)
+verificar	Set up job	2026-10-27T18:41:23.3413242Z Complete job name: verificar
+verificar	Obtener el proyecto	﻿2026-10-27T18:41:23.4257702Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4259083Z with:
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4259858Z   persist-credentials: false
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4260890Z   repository: Le0Padill4/divisor_cuenta
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4267095Z   token: ***
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4267924Z   ssh-strict: true
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4268683Z   ssh-user: git
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4269411Z   clean: true
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4270195Z   sparse-checkout-cone-mode: true
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4271074Z   fetch-depth: 1
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4271964Z   fetch-tags: false
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4272739Z   show-progress: true
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4273566Z   lfs: false
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4274329Z   submodules: false
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4275092Z   set-safe-directory: true
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4276025Z   allow-unsafe-pr-checkout: false
+verificar	Obtener el proyecto	2026-10-27T18:41:23.4277126Z ##[endgroup]
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6650924Z Syncing repository: Le0Padill4/divisor_cuenta
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6654138Z ##[group]Getting Git version info
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6655578Z Working directory is '/home/runner/work/divisor_cuenta/divisor_cuenta'
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6657403Z [command]/usr/bin/git version
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6709083Z git version 2.55.0
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6736477Z ##[endgroup]
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6742089Z Temporarily overriding HOME='/home/runner/work/_temp/f9acea3f-63f4-4ad3-87c8-1b308d73f3cd' before making global git config changes
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6744917Z Adding repository directory to the temporary git global config as a safe directory
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6747440Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/divisor_cuenta/divisor_cuenta
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6783854Z Deleting the contents of '/home/runner/work/divisor_cuenta/divisor_cuenta'
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6786698Z ##[group]Determining repository object format
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6788713Z ##[endgroup]
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6790287Z ##[group]Initializing the repository
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6792254Z [command]/usr/bin/git init /home/runner/work/divisor_cuenta/divisor_cuenta
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6880266Z hint: Using 'master' as the name for the initial branch. This default branch name
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6885492Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6887734Z hint: to use in all of your new repositories, which will suppress this warning,
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6889665Z hint: call:
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6890689Z hint:
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6892340Z hint: 	git config --global init.defaultBranch <name>
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6893696Z hint:
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6894980Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6897174Z hint: 'development'. The just-created branch can be renamed via this command:
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6898657Z hint:
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6899568Z hint: 	git branch -m <name>
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6900396Z hint:
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6901580Z hint: Disable this message with "git config set advice.defaultBranchName false"
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6903655Z Initialized empty Git repository in /home/runner/work/divisor_cuenta/divisor_cuenta/.git/
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6906641Z [command]/usr/bin/git remote add origin https://github.com/Le0Padill4/divisor_cuenta
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6940330Z ##[endgroup]
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6942198Z ##[group]Disabling automatic garbage collection
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6943828Z [command]/usr/bin/git config --local gc.auto 0
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6969161Z ##[endgroup]
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6970812Z ##[group]Setting up auth
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6972280Z Removing SSH command configuration
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6974002Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verificar	Obtener el proyecto	2026-10-27T18:41:23.6998555Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7294616Z Removing HTTP extra header
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7323561Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7334757Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7493098Z Removing includeIf entries pointing to credentials config files
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7496606Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7527002Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7678537Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-cd6b87e6-24d2-4704-b30d-4d849eb706d2.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7707907Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git.path /home/runner/work/_temp/git-credentials-cd6b87e6-24d2-4704-b30d-4d849eb706d2.config
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7730849Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-cd6b87e6-24d2-4704-b30d-4d849eb706d2.config
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7757898Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-cd6b87e6-24d2-4704-b30d-4d849eb706d2.config
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7782272Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-cd6b87e6-24d2-4704-b30d-4d849eb706d2.config
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7806322Z ##[endgroup]
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7807571Z ##[group]Fetching the repository
+verificar	Obtener el proyecto	2026-10-27T18:41:23.7811393Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +078deb27a1c6e5d7053fa5ec0394197f094dd457:refs/remotes/origin/main
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6459933Z From https://github.com/Le0Padill4/divisor_cuenta
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6461438Z  * [new ref]         078deb27a1c6e5d7053fa5ec0394197f094dd457 -> origin/main
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6467299Z [command]/usr/bin/git branch --list --remote origin/main
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6488097Z   origin/main
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6493206Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6510547Z 078deb27a1c6e5d7053fa5ec0394197f094dd457
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6512602Z ##[endgroup]
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6513139Z ##[group]Determining the checkout info
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6513805Z ##[endgroup]
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6518091Z [command]/usr/bin/git sparse-checkout disable
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6562699Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6586329Z ##[group]Checking out the ref
+verificar	Obtener el proyecto	2026-10-27T18:41:26.6589958Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7014540Z Switched to a new branch 'main'
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7017834Z branch 'main' set up to track 'origin/main'.
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7022291Z ##[endgroup]
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7050873Z [command]/usr/bin/git log -1 --format=%H
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7068521Z 078deb27a1c6e5d7053fa5ec0394197f094dd457
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7074745Z ##[group]Removing auth
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7075257Z Removing SSH command configuration
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7077721Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7098755Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7243307Z Removing HTTP extra header
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7245254Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7264878Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7403785Z Removing includeIf entries pointing to credentials config files
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7404949Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7425433Z includeif.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git.path
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7426317Z includeif.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git/worktrees/*.path
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7426985Z includeif.gitdir:/github/workspace/.git.path
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7427619Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7433548Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git.path
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7446717Z /home/runner/work/_temp/git-credentials-cd6b87e6-24d2-4704-b30d-4d849eb706d2.config
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7454931Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-cd6b87e6\-24d2\-4704\-b30d\-4d849eb706d2\.config
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7485303Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git/worktrees/*.path
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7499963Z /home/runner/work/_temp/git-credentials-cd6b87e6-24d2-4704-b30d-4d849eb706d2.config
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7505170Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-cd6b87e6\-24d2\-4704\-b30d\-4d849eb706d2\.config
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7532032Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7547407Z /github/runner_temp/git-credentials-cd6b87e6-24d2-4704-b30d-4d849eb706d2.config
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7552682Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-cd6b87e6\-24d2\-4704\-b30d\-4d849eb706d2\.config
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7577216Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7591820Z /github/runner_temp/git-credentials-cd6b87e6-24d2-4704-b30d-4d849eb706d2.config
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7597490Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-cd6b87e6\-24d2\-4704\-b30d\-4d849eb706d2\.config
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7620662Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7753740Z Removing credentials config '/home/runner/work/_temp/git-credentials-cd6b87e6-24d2-4704-b30d-4d849eb706d2.config'
+verificar	Obtener el proyecto	2026-10-27T18:41:26.7762593Z ##[endgroup]
+verificar	Preparar Java	﻿2026-10-27T18:41:26.8030557Z ##[group]Run actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad
+verificar	Preparar Java	2026-10-27T18:41:26.8030982Z with:
+verificar	Preparar Java	2026-10-27T18:41:26.8031513Z   distribution: temurin
+verificar	Preparar Java	2026-10-27T18:41:26.8031826Z   java-version: 17
+verificar	Preparar Java	2026-10-27T18:41:26.8032109Z   java-package: jdk
+verificar	Preparar Java	2026-10-27T18:41:26.8032374Z   check-latest: false
+verificar	Preparar Java	2026-10-27T18:41:26.8032754Z   force-download: false
+verificar	Preparar Java	2026-10-27T18:41:26.8033039Z   set-default: true
+verificar	Preparar Java	2026-10-27T18:41:26.8033288Z   server-id: github
+verificar	Preparar Java	2026-10-27T18:41:26.8033637Z   mvn-repositories-include-central: true
+verificar	Preparar Java	2026-10-27T18:41:26.8033980Z   mvn-repositories-prioritize-central: true
+verificar	Preparar Java	2026-10-27T18:41:26.8034311Z   overwrite-settings: true
+verificar	Preparar Java	2026-10-27T18:41:26.8034614Z   cache-read-only: false
+verificar	Preparar Java	2026-10-27T18:41:26.8034893Z   job-status: success
+verificar	Preparar Java	2026-10-27T18:41:26.8036682Z   token: ***
+verificar	Preparar Java	2026-10-27T18:41:26.8036989Z   show-download-progress: false
+verificar	Preparar Java	2026-10-27T18:41:26.8037310Z   problem-matcher: true
+verificar	Preparar Java	2026-10-27T18:41:26.8037581Z ##[endgroup]
+verificar	Preparar Java	2026-10-27T18:41:26.8564612Z ##[group]Installed distributions
+verificar	Preparar Java	2026-10-27T18:41:26.8760225Z Resolved Java 17.0.20+1 from tool-cache
+verificar	Preparar Java	2026-10-27T18:41:26.8760751Z Setting Java 17.0.20+1 as the default
+verificar	Preparar Java	2026-10-27T18:41:26.8765700Z 
+verificar	Preparar Java	2026-10-27T18:41:26.8766242Z Java configuration:
+verificar	Preparar Java	2026-10-27T18:41:26.8766605Z   Distribution: temurin
+verificar	Preparar Java	2026-10-27T18:41:26.8766914Z   Version: 17.0.20+1
+verificar	Preparar Java	2026-10-27T18:41:26.8767272Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Preparar Java	2026-10-27T18:41:26.8767534Z 
+verificar	Preparar Java	2026-10-27T18:41:26.8767865Z ##[endgroup]
+verificar	Preparar Java	2026-10-27T18:41:26.8793531Z Creating settings.xml with server-id: github
+verificar	Preparar Java	2026-10-27T18:41:26.8794065Z Creating toolchains.xml for JDK version 17 from temurin
+verificar	Preparar Java	2026-10-27T18:41:26.8794424Z Writing to /home/runner/.m2/settings.xml
+verificar	Preparar Java	2026-10-27T18:41:26.8796963Z Writing to /home/runner/.m2/toolchains.xml
+verificar	Preparar Java	2026-10-27T18:41:26.8802682Z Configured MAVEN_ARGS to include -ntp to suppress Maven transfer progress logs. Set 'show-download-progress: true' to keep the download progress output.
+verificar	Preparar Flutter estable	﻿2026-10-27T18:41:26.9006097Z ##[group]Run subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9006643Z with:
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9007065Z   channel: stable
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9007352Z   flutter-version: 3.47.8
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9007703Z   architecture: X64
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9008076Z   cache: false
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9008366Z   pub-cache-path: default
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9008678Z   dry-run: false
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9008976Z   git-source: https://github.com/flutter/flutter.git
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9009380Z env:
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9009715Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9010138Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9010663Z   MAVEN_ARGS: -ntp
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9010915Z ##[endgroup]
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9100687Z ##[start-action display=Make yq tool available on Windows runners;id=__subosito_flutter-action.__run]
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9117052Z ##[end-action id=__subosito_flutter-action.__run;outcome=skipped;conclusion=skipped;duration_ms=0]
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9119604Z ##[start-action display=Make setup script executable;id=__subosito_flutter-action.__run_2]
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9156779Z ##[group]Run chmod +x "$GITHUB_ACTION_PATH/setup.sh"
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9157265Z ^[[36;1mchmod +x "$GITHUB_ACTION_PATH/setup.sh"^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9315541Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9315959Z env:
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9316288Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9316739Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9317093Z   MAVEN_ARGS: -ntp
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9317346Z ##[endgroup]
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9406668Z ##[end-action id=__subosito_flutter-action.__run_2;outcome=success;conclusion=success;duration_ms=28]
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9408871Z ##[start-action display=Set action inputs;id=__subosito_flutter-action.flutter-action]
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9444848Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh -p \
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9445244Z ^[[36;1m$GITHUB_ACTION_PATH/setup.sh -p \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9445586Z ^[[36;1m  -n '3.47.8' \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9445838Z ^[[36;1m  -f '' \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9446070Z ^[[36;1m  -a 'X64' \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9446359Z ^[[36;1m  -k '' \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9446600Z ^[[36;1m  -c '' \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9446848Z ^[[36;1m  -l '' \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9447105Z ^[[36;1m  -d 'default' \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9447425Z ^[[36;1m  -g 'https://github.com/flutter/flutter.git' \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9447775Z ^[[36;1m  stable^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9477315Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9477713Z env:
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9478020Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9478475Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9478839Z   MAVEN_ARGS: -ntp
+verificar	Preparar Flutter estable	2026-10-27T18:41:26.9479098Z ##[endgroup]
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1911133Z ##[end-action id=__subosito_flutter-action.flutter-action;outcome=success;conclusion=success;duration_ms=250]
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1915941Z ##[start-action display=Cache Flutter;id=__subosito_flutter-action.cache-flutter]
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1920144Z ##[end-action id=__subosito_flutter-action.cache-flutter;outcome=skipped;conclusion=skipped;duration_ms=0]
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1922371Z ##[start-action display=Cache pub dependencies;id=__subosito_flutter-action.cache-pub]
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1929026Z ##[end-action id=__subosito_flutter-action.cache-pub;outcome=skipped;conclusion=skipped;duration_ms=0]
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1930731Z ##[start-action display=Run setup script;id=__subosito_flutter-action.__run_3]
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1966613Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh \
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1967027Z ^[[36;1m$GITHUB_ACTION_PATH/setup.sh \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1967314Z ^[[36;1m  -n '3.47.8' \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1967596Z ^[[36;1m  -a 'x64' \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1968035Z ^[[36;1m  -c '/opt/hostedtoolcache/flutter/stable-3.47.8-x64' \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1968399Z ^[[36;1m  -d '/home/runner/.pub-cache' \^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1968696Z ^[[36;1m  stable^[[0m
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1998276Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1998669Z env:
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1998998Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1999465Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.1999809Z   MAVEN_ARGS: -ntp
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.2000083Z ##[endgroup]
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.4353319Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.4357296Z                                  Dload  Upload   Total   Spent    Left  Speed
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.4357827Z 
+verificar	Preparar Flutter estable	2026-10-27T18:41:27.6653728Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+verificar	Preparar Flutter estable	2026-10-27T18:41:28.6684135Z   0 1508M    0  309k    0     0  1344k      0  0:19:08 --:--:--  0:19:08 1339k
+verificar	Preparar Flutter estable	2026-10-27T18:41:29.6653343Z   9 1508M    9  145M    0     0   117M      0  0:00:12  0:00:01  0:00:11  117M
+verificar	Preparar Flutter estable	2026-10-27T18:41:30.6752354Z  22 1508M   22  338M    0     0   152M      0  0:00:09  0:00:02  0:00:07  152M
+verificar	Preparar Flutter estable	2026-10-27T18:41:31.6697116Z  35 1508M   35  527M    0     0   162M      0  0:00:09  0:00:03  0:00:06  162M
+verificar	Preparar Flutter estable	2026-10-27T18:41:32.6662030Z  46 1508M   46  706M    0     0   166M      0  0:00:09  0:00:04  0:00:05  166M
+verificar	Preparar Flutter estable	2026-10-27T18:41:33.6849586Z  57 1508M   57  872M    0     0   166M      0  0:00:09  0:00:05  0:00:04  174M
+verificar	Preparar Flutter estable	2026-10-27T18:41:34.6653331Z  68 1508M   68 1032M    0     0   165M      0  0:00:09  0:00:06  0:00:03  176M
+verificar	Preparar Flutter estable	2026-10-27T18:41:35.6653983Z  79 1508M   79 1194M    0     0   165M      0  0:00:09  0:00:07  0:00:02  171M
+verificar	Preparar Flutter estable	2026-10-27T18:41:36.3644276Z  90 1508M   90 1361M    0     0   165M      0  0:00:09  0:00:08  0:00:01  167M
+verificar	Preparar Flutter estable	2026-10-27T18:41:36.3644914Z 100 1508M  100 1508M    0     0   168M      0  0:00:08  0:00:08 --:--:--  170M
+verificar	Preparar Flutter estable	2026-10-27T18:42:18.2415115Z ##[end-action id=__subosito_flutter-action.__run_3;outcome=success;conclusion=success;duration_ms=51048]
+verificar	Instalar dependencias	﻿2026-10-27T18:42:18.2584502Z ##[group]Run flutter pub get
+verificar	Instalar dependencias	2026-10-27T18:42:18.2584898Z ^[[36;1mflutter pub get^[[0m
+verificar	Instalar dependencias	2026-10-27T18:42:18.2623042Z shell: /usr/bin/bash -e {0}
+verificar	Instalar dependencias	2026-10-27T18:42:18.2623372Z env:
+verificar	Instalar dependencias	2026-10-27T18:42:18.2623707Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Instalar dependencias	2026-10-27T18:42:18.2624151Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Instalar dependencias	2026-10-27T18:42:18.2624581Z   MAVEN_ARGS: -ntp
+verificar	Instalar dependencias	2026-10-27T18:42:18.2624851Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.47.8-x64/flutter
+verificar	Instalar dependencias	2026-10-27T18:42:18.2625236Z   PUB_CACHE: /home/runner/.pub-cache
+verificar	Instalar dependencias	2026-10-27T18:42:18.2625520Z ##[endgroup]
+verificar	Instalar dependencias	2026-10-27T18:42:24.6269139Z Resolving dependencies...
+verificar	Instalar dependencias	2026-10-27T18:42:24.8537618Z Downloading packages...
+verificar	Instalar dependencias	2026-10-27T18:42:25.4882355Z   material_color_utilities 0.13.0 (0.13.1 available)
+verificar	Instalar dependencias	2026-10-27T18:42:25.4882901Z   meta 1.18.3 (1.19.0 available)
+verificar	Instalar dependencias	2026-10-27T18:42:25.4883279Z   test_api 0.7.12 (0.7.15 available)
+verificar	Instalar dependencias	2026-10-27T18:42:25.4883646Z   vector_math 2.4.0 (2.4.4 available)
+verificar	Instalar dependencias	2026-10-27T18:42:25.4884217Z   vm_service 15.3.0 (15.4.0 available)
+verificar	Instalar dependencias	2026-10-27T18:42:25.4884579Z Got dependencies!
+verificar	Instalar dependencias	2026-10-27T18:42:25.4884975Z 5 packages have newer versions incompatible with dependency constraints.
+verificar	Instalar dependencias	2026-10-27T18:42:25.4885355Z Try `flutter pub outdated` for more information.
+verificar	Analizar el código	﻿2026-10-27T18:42:25.6195190Z ##[group]Run flutter analyze
+verificar	Analizar el código	2026-10-27T18:42:25.6195631Z ^[[36;1mflutter analyze^[[0m
+verificar	Analizar el código	2026-10-27T18:42:25.6232427Z shell: /usr/bin/bash -e {0}
+verificar	Analizar el código	2026-10-27T18:42:25.6232779Z env:
+verificar	Analizar el código	2026-10-27T18:42:25.6233110Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Analizar el código	2026-10-27T18:42:25.6233589Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Analizar el código	2026-10-27T18:42:25.6233943Z   MAVEN_ARGS: -ntp
+verificar	Analizar el código	2026-10-27T18:42:25.6234255Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.47.8-x64/flutter
+verificar	Analizar el código	2026-10-27T18:42:25.6234620Z   PUB_CACHE: /home/runner/.pub-cache
+verificar	Analizar el código	2026-10-27T18:42:25.6234894Z ##[endgroup]
+verificar	Analizar el código	2026-10-27T18:42:25.7355869Z Resolving dependencies...
+verificar	Analizar el código	2026-10-27T18:42:25.7513958Z Downloading packages...
+verificar	Analizar el código	2026-10-27T18:42:25.7519898Z   material_color_utilities 0.13.0 (0.13.1 available)
+verificar	Analizar el código	2026-10-27T18:42:25.7520454Z   meta 1.18.3 (1.19.0 available)
+verificar	Analizar el código	2026-10-27T18:42:25.7520855Z   test_api 0.7.12 (0.7.15 available)
+verificar	Analizar el código	2026-10-27T18:42:25.7521368Z   vector_math 2.4.0 (2.4.4 available)
+verificar	Analizar el código	2026-10-27T18:42:25.7542323Z   vm_service 15.3.0 (15.4.0 available)
+verificar	Analizar el código	2026-10-27T18:42:25.7571087Z Got dependencies!
+verificar	Analizar el código	2026-10-27T18:42:25.7571797Z 5 packages have newer versions incompatible with dependency constraints.
+verificar	Analizar el código	2026-10-27T18:42:25.7572497Z Try `flutter pub outdated` for more information.
+verificar	Analizar el código	2026-10-27T18:42:31.5945796Z Analyzing divisor_cuenta...                                     
+verificar	Analizar el código	2026-10-27T18:42:31.5957399Z No issues found! (ran in 5.5s)
+verificar	Ejecutar las pruebas	﻿2026-10-27T18:42:31.6066018Z ##[group]Run flutter test
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.6066424Z ^[[36;1mflutter test^[[0m
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.6108154Z shell: /usr/bin/bash -e {0}
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.6108499Z env:
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.6108821Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.6109244Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.6109574Z   MAVEN_ARGS: -ntp
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.6109879Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.47.8-x64/flutter
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.6110205Z   PUB_CACHE: /home/runner/.pub-cache
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.6110505Z ##[endgroup]
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.7202558Z Resolving dependencies...
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.7349729Z Downloading packages...
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.7355548Z   material_color_utilities 0.13.0 (0.13.1 available)
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.7356093Z   meta 1.18.3 (1.19.0 available)
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.7356435Z   test_api 0.7.12 (0.7.15 available)
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.7356752Z   vector_math 2.4.0 (2.4.4 available)
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.7357298Z   vm_service 15.3.0 (15.4.0 available)
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.7357604Z Got dependencies!
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.7358112Z 5 packages have newer versions incompatible with dependency constraints.
+verificar	Ejecutar las pruebas	2026-10-27T18:42:31.7358574Z Try `flutter pub outdated` for more information.
+verificar	Ejecutar las pruebas	2026-10-27T18:42:32.2155589Z 
+verificar	Ejecutar las pruebas	2026-10-27T18:42:38.3807546Z ##[group]✅ Passing tests
+verificar	Ejecutar las pruebas	2026-10-27T18:42:38.3808582Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 1. reparto normal
+verificar	Ejecutar las pruebas	2026-10-27T18:42:38.3825267Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 2. sin propina
+verificar	Ejecutar las pruebas	2026-10-27T18:42:38.3859360Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 3. cero personas
+verificar	Ejecutar las pruebas	2026-10-27T18:42:38.3875460Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 4. monto no numerico
+verificar	Ejecutar las pruebas	2026-10-27T18:42:38.3891692Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 5. redondeo exacto
+verificar	Ejecutar las pruebas	2026-10-27T18:42:38.3909570Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 6. redondeo hacia arriba
+verificar	Ejecutar las pruebas	2026-10-27T18:42:38.3928906Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: propina de 150 devuelve el error de máximo 100%
+verificar	Ejecutar las pruebas	2026-10-27T18:42:38.3948088Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: propina de exactamente 100 no devuelve error
+verificar	Ejecutar las pruebas	2026-10-27T18:42:38.3966750Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: CalcularDivision acepta ambas estrategias sin conocer su tipo
+verificar	Ejecutar las pruebas	2026-10-27T18:42:39.1084367Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+verificar	Ejecutar las pruebas	2026-10-27T18:42:39.2342067Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/pantalla_test.dart: cero personas muestra error y no resultado
+verificar	Ejecutar las pruebas	2026-10-27T18:42:39.3407351Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/pantalla_test.dart: monto no numérico muestra error
+verificar	Ejecutar las pruebas	2026-10-27T18:42:39.3510260Z ##[endgroup]
+verificar	Ejecutar las pruebas	2026-10-27T18:42:39.3510526Z 
+verificar	Ejecutar las pruebas	2026-10-27T18:42:39.3513126Z 🎉 12 tests passed.
+verificar	Compilar el APK de depuración	﻿2026-10-27T18:42:39.3819561Z ##[group]Run flutter build apk --debug
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.3819900Z ^[[36;1mflutter build apk --debug^[[0m
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.3853683Z shell: /usr/bin/bash -e {0}
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.3853994Z env:
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.3854295Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.3854719Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.3855096Z   MAVEN_ARGS: -ntp
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.3855385Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.47.8-x64/flutter
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.3855715Z   PUB_CACHE: /home/runner/.pub-cache
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.3856116Z ##[endgroup]
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.5345716Z Resolving dependencies...
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.5493178Z Downloading packages...
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.5498664Z   material_color_utilities 0.13.0 (0.13.1 available)
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.5499109Z   meta 1.18.3 (1.19.0 available)
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.5499421Z   test_api 0.7.12 (0.7.15 available)
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.5499731Z   vector_math 2.4.0 (2.4.4 available)
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.5500200Z   vm_service 15.3.0 (15.4.0 available)
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.5500500Z Got dependencies!
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.5500870Z 5 packages have newer versions incompatible with dependency constraints.
+verificar	Compilar el APK de depuración	2026-10-27T18:42:39.5501707Z Try `flutter pub outdated` for more information.
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.0072820Z Running Gradle task 'assembleDebug'...                          
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.0073552Z Loading package information...                                                  
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.0998872Z Loading local repository...                                                     
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.1000020Z [                                       ] 3% Loading local repository...        
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.4003379Z [                                       ] 3% Fetch remote repository...         
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.7000085Z [=                                      ] 3% Fetch remote repository...         
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.7987230Z [=                                      ] 4% Fetch remote repository...         
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.8008565Z [=                                      ] 5% Fetch remote repository...         
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.8009421Z [==                                     ] 5% Fetch remote repository...         
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.8009982Z [==                                     ] 6% Fetch remote repository...         
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.9982155Z [==                                     ] 7% Fetch remote repository...         
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.9985689Z [==                                     ] 7% Computing updates...               
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.9986568Z [===                                    ] 8% Computing updates...               
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.9987253Z [===                                    ] 10% Computing updates...              
+verificar	Compilar el APK de depuración	2026-10-27T18:44:03.9987966Z [===                                    ] 10% Installing NDK (Side by side) 28.2
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.1980371Z [===                                    ] 10% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.2983176Z [====                                   ] 10% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.3978476Z [====                                   ] 11% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.3979565Z [====                                   ] 12% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.4982523Z [=====                                  ] 13% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.4983613Z [=====                                  ] 14% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.5981744Z [=====                                  ] 15% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.5983344Z [======                                 ] 15% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.6979536Z [======                                 ] 16% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.6980286Z [======                                 ] 17% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.7984450Z [=======                                ] 18% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.7986714Z [=======                                ] 19% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.8982005Z [=======                                ] 20% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.8982663Z [========                               ] 20% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.9981477Z [========                               ] 21% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:04.9982515Z [========                               ] 22% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.0978444Z [=========                              ] 23% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.0979153Z [=========                              ] 24% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.0979641Z [=========                              ] 25% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.1978129Z [==========                             ] 25% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.1978748Z [==========                             ] 26% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.2980578Z [==========                             ] 27% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.2981057Z [===========                            ] 28% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.3979505Z [===========                            ] 29% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.3981022Z [===========                            ] 30% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.4978844Z [============                           ] 30% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.4979557Z [============                           ] 31% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.5978791Z [============                           ] 32% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.5979391Z [============                           ] 33% Downloading android-ndk-r28c-linux
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.9988590Z [============                           ] 33% Unzipping...                      
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.9989930Z [============                           ] 33% Unzipping... android-ndk-r28c/    
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.9990576Z [============                           ] 33% Unzipping... android-ndk-r28c/READ
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.9991393Z [=============                          ] 33% Unzipping... android-ndk-r28c/READ
+verificar	Compilar el APK de depuración	2026-10-27T18:44:05.9992196Z [=============                          ] 33% Unzipping... android-ndk-r28c/meta
+verificar	Compilar el APK de depuración	2026-10-27T18:44:06.0979241Z [=============                          ] 33% Unzipping... android-ndk-r28c/shad
+verificar	Compilar el APK de depuración	2026-10-27T18:44:06.0982348Z [=============                          ] 33% Unzipping... android-ndk-r28c/ndk-
+verificar	Compilar el APK de depuración	2026-10-27T18:44:06.0982899Z [=============                          ] 33% Unzipping... android-ndk-r28c/wrap
+verificar	Compilar el APK de depuración	2026-10-27T18:44:06.0983412Z [=============                          ] 33% Unzipping... android-ndk-r28c/ndk-
+verificar	Compilar el APK de depuración	2026-10-27T18:44:06.3980697Z [=============                          ] 33% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:07.3979671Z [=============                          ] 34% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:08.1980353Z [=============                          ] 35% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:08.3981425Z [==============                         ] 35% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:08.6979691Z [==============                         ] 36% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:10.0981591Z [==============                         ] 37% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:11.8980231Z [===============                        ] 38% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:12.4979534Z [===============                        ] 39% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:12.7980030Z [===============                        ] 40% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:13.0981471Z [================                       ] 40% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:13.7980143Z [================                       ] 41% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:14.3981389Z [================                       ] 42% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:15.2981922Z [=================                      ] 43% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:16.1982367Z [=================                      ] 44% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:16.5980183Z [=================                      ] 45% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:17.0980871Z [==================                     ] 45% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:17.7981527Z [==================                     ] 46% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:18.3981122Z [==================                     ] 47% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:19.0981477Z [===================                    ] 48% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:19.7979939Z [===================                    ] 49% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:20.0981074Z [===================                    ] 50% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:20.3982240Z [====================                   ] 50% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:21.1980403Z [====================                   ] 51% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:21.4981875Z [====================                   ] 52% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:22.3980244Z [=====================                  ] 53% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:22.7982289Z [=====================                  ] 54% Unzipping... android-ndk-r28c/tool
+verificar	Compilar el APK de depuración	2026-10-27T18:44:22.8978835Z [=====================                  ] 54% Unzipping... android-ndk-r28c/buil
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.0979959Z [=====================                  ] 54% Unzipping... android-ndk-r28c/sour
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.0980872Z [=====================                  ] 54% Unzipping... android-ndk-r28c/NOTI
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.0981606Z [=====================                  ] 54% Unzipping... android-ndk-r28c/ndk-
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.0982201Z [=====================                  ] 54% Unzipping... android-ndk-r28c/NOTI
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.0984737Z [=====================                  ] 54% Unzipping... android-ndk-r28c/pyth
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.0985321Z [=====================                  ] 54% Unzipping... android-ndk-r28c/preb
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.0985894Z [=====================                  ] 54% Unzipping... android-ndk-r28c/ndk-
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.0986443Z [=====================                  ] 54% Unzipping... android-ndk-r28c/sour
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.1978641Z [=====================                  ] 54% Unzipping... android-ndk-r28c/simp
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.2977611Z [=====================                  ] 55% Unzipping... android-ndk-r28c/simp
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.3978082Z [=====================                  ] 55% Unzipping... android-ndk-r28c/CHAN
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.3978691Z [=======================================] 100% Unzipping... android-ndk-r28c/CHA
+verificar	Compilar el APK de depuración	2026-10-27T18:44:23.6980357Z 
+verificar	Compilar el APK de depuración	2026-10-27T18:45:25.8329348Z Running Gradle task 'assembleDebug'...                            166.0s
+verificar	Compilar el APK de depuración	2026-10-27T18:45:26.6618189Z ✓ Built build/app/outputs/flutter-apk/app-debug.apk
+verificar	Post Preparar Flutter estable	﻿2026-10-27T18:45:26.7778754Z Post job cleanup.
+verificar	Post Preparar Java	﻿2026-10-27T18:45:26.8392256Z Post job cleanup.
+verificar	Post Obtener el proyecto	﻿2026-10-27T18:45:26.9373438Z Post job cleanup.
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0073148Z [command]/usr/bin/git version
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0103365Z git version 2.55.0
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0126644Z Temporarily overriding HOME='/home/runner/work/_temp/faf17a55-62f9-45de-8c0b-2b60f36fab65' before making global git config changes
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0127835Z Adding repository directory to the temporary git global config as a safe directory
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0129643Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/divisor_cuenta/divisor_cuenta
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0224811Z Removing SSH command configuration
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0225342Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0250861Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0439303Z Removing HTTP extra header
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0443283Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0472212Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0620503Z Removing includeIf entries pointing to credentials config files
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0627294Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verificar	Post Obtener el proyecto	2026-10-27T18:45:27.0655725Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verificar	Complete job	﻿2026-10-27T18:45:27.0941733Z Cleaning up orphan processes
+verificar	Complete job	2026-10-27T18:45:27.1793286Z Terminate orphan process: pid (2708) (java)
+verificar	Complete job	2026-10-27T18:45:27.1820523Z Terminate orphan process: pid (2824) (java)
+verificar	Complete job	2026-10-27T18:45:27.1845352Z Terminate orphan process: pid (3032) (java)
+entrega	Set up job	﻿2026-10-27T18:45:33.5900762Z Current runner version: '2.338.0'
+entrega	Set up job	2026-10-27T18:45:33.5926810Z ##[group]Runner Image Provisioner
+entrega	Set up job	2026-10-27T18:45:33.5927808Z Hosted Compute Agent
+entrega	Set up job	2026-10-27T18:45:33.5928440Z Version: 20261021.618
+entrega	Set up job	2026-10-27T18:45:33.5929083Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+entrega	Set up job	2026-10-27T18:45:33.5929872Z Build Date: 2026-10-21T00:45:21Z
+entrega	Set up job	2026-10-27T18:45:33.5930614Z Worker ID: {ec0ea341-a85e-4e62-afae-fdf489174c42}
+entrega	Set up job	2026-10-27T18:45:33.5931328Z Region: westus
+entrega	Set up job	2026-10-27T18:45:33.5931935Z Cloud: Azure
+entrega	Set up job	2026-10-27T18:45:33.5932465Z ##[endgroup]
+entrega	Set up job	2026-10-27T18:45:33.5933957Z ##[group]Operating System
+entrega	Set up job	2026-10-27T18:45:33.5935066Z Ubuntu
+entrega	Set up job	2026-10-27T18:45:33.5935603Z 24.04.5
+entrega	Set up job	2026-10-27T18:45:33.5936294Z LTS
+entrega	Set up job	2026-10-27T18:45:33.5936859Z ##[endgroup]
+entrega	Set up job	2026-10-27T18:45:33.5937446Z ##[group]Runner Image
+entrega	Set up job	2026-10-27T18:45:33.5938115Z Image: ubuntu-24.04
+entrega	Set up job	2026-10-27T18:45:33.5938679Z Version: 20261012.334.1
+entrega	Set up job	2026-10-27T18:45:33.5940181Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+entrega	Set up job	2026-10-27T18:45:33.5942039Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+entrega	Set up job	2026-10-27T18:45:33.5943075Z ##[endgroup]
+entrega	Set up job	2026-10-27T18:45:33.5944233Z ##[group]GITHUB_TOKEN Permissions
+entrega	Set up job	2026-10-27T18:45:33.5946468Z Contents: read
+entrega	Set up job	2026-10-27T18:45:33.5947109Z Metadata: read
+entrega	Set up job	2026-10-27T18:45:33.5947810Z ##[endgroup]
+entrega	Set up job	2026-10-27T18:45:33.5950267Z Secret source: Actions
+entrega	Set up job	2026-10-27T18:45:33.5951372Z Cache mode: write
+entrega	Set up job	2026-10-27T18:45:33.5952290Z Prepare workflow directory
+entrega	Set up job	2026-10-27T18:45:33.6290405Z Prepare all required actions
+entrega	Set up job	2026-10-27T18:45:33.6339516Z Getting action download info
+entrega	Set up job	2026-10-27T18:45:34.0239328Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+entrega	Set up job	2026-10-27T18:45:34.1617419Z Download action repository 'actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad' (SHA:b843ebf9b913146b38da2eaa7aeddf76074ae1ad)
+entrega	Set up job	2026-10-27T18:45:34.7489906Z Download action repository 'subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2' (SHA:1a449444c387b1966244ae4d4f8c696479add0b2)
+entrega	Set up job	2026-10-27T18:45:35.0012978Z Download action repository 'actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9' (SHA:cf430e030ddbb5b0abf93d22962f4752f3646cd9)
+entrega	Set up job	2026-10-27T18:45:35.6256977Z Getting action download info
+entrega	Set up job	2026-10-27T18:45:35.7795374Z Download action repository 'actions/cache@v5' (SHA:caa296126883cff596d87d8935842f9db880ef25)
+entrega	Set up job	2026-10-27T18:45:35.9943229Z Complete job name: entrega
+entrega	Obtener el proyecto	﻿2026-10-27T18:45:36.1051997Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1053843Z with:
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1054916Z   persist-credentials: false
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1055974Z   repository: Le0Padill4/divisor_cuenta
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1064333Z   token: ***
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1065364Z   ssh-strict: true
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1066226Z   ssh-user: git
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1067052Z   clean: true
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1067933Z   sparse-checkout-cone-mode: true
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1068988Z   fetch-depth: 1
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1069841Z   fetch-tags: false
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1070734Z   show-progress: true
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1071614Z   lfs: false
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1072426Z   submodules: false
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1073312Z   set-safe-directory: true
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1074318Z   allow-unsafe-pr-checkout: false
+entrega	Obtener el proyecto	2026-10-27T18:45:36.1076057Z ##[endgroup]
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4536075Z Syncing repository: Le0Padill4/divisor_cuenta
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4539820Z ##[group]Getting Git version info
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4541565Z Working directory is '/home/runner/work/divisor_cuenta/divisor_cuenta'
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4543640Z [command]/usr/bin/git version
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4616742Z git version 2.55.0
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4643604Z ##[endgroup]
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4654010Z Temporarily overriding HOME='/home/runner/work/_temp/29da01c2-5125-4c1e-837b-9193bd0cecf9' before making global git config changes
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4659693Z Adding repository directory to the temporary git global config as a safe directory
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4664950Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/divisor_cuenta/divisor_cuenta
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4715631Z Deleting the contents of '/home/runner/work/divisor_cuenta/divisor_cuenta'
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4719561Z ##[group]Determining repository object format
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4722522Z ##[endgroup]
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4725142Z ##[group]Initializing the repository
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4728121Z [command]/usr/bin/git init /home/runner/work/divisor_cuenta/divisor_cuenta
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4920214Z hint: Using 'master' as the name for the initial branch. This default branch name
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4923845Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4927932Z hint: to use in all of your new repositories, which will suppress this warning,
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4930887Z hint: call:
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4932456Z hint:
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4934657Z hint: 	git config --global init.defaultBranch <name>
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4937343Z hint:
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4939653Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4943028Z hint: 'development'. The just-created branch can be renamed via this command:
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4946206Z hint:
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4947903Z hint: 	git branch -m <name>
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4949700Z hint:
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4951848Z hint: Disable this message with "git config set advice.defaultBranchName false"
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4955700Z Initialized empty Git repository in /home/runner/work/divisor_cuenta/divisor_cuenta/.git/
+entrega	Obtener el proyecto	2026-10-27T18:45:36.4961357Z [command]/usr/bin/git remote add origin https://github.com/Le0Padill4/divisor_cuenta
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5000406Z ##[endgroup]
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5002864Z ##[group]Disabling automatic garbage collection
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5005193Z [command]/usr/bin/git config --local gc.auto 0
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5041067Z ##[endgroup]
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5043764Z ##[group]Setting up auth
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5046098Z Removing SSH command configuration
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5048983Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5085141Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5451816Z Removing HTTP extra header
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5459592Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5497186Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5741917Z Removing includeIf entries pointing to credentials config files
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5747462Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+entrega	Obtener el proyecto	2026-10-27T18:45:36.5794946Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+entrega	Obtener el proyecto	2026-10-27T18:45:36.6019813Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-5f6fb960-b870-48de-9c40-c3bb9eae6b92.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+entrega	Obtener el proyecto	2026-10-27T18:45:36.6059976Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git.path /home/runner/work/_temp/git-credentials-5f6fb960-b870-48de-9c40-c3bb9eae6b92.config
+entrega	Obtener el proyecto	2026-10-27T18:45:36.6094707Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-5f6fb960-b870-48de-9c40-c3bb9eae6b92.config
+entrega	Obtener el proyecto	2026-10-27T18:45:36.6135963Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-5f6fb960-b870-48de-9c40-c3bb9eae6b92.config
+entrega	Obtener el proyecto	2026-10-27T18:45:36.6169898Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-5f6fb960-b870-48de-9c40-c3bb9eae6b92.config
+entrega	Obtener el proyecto	2026-10-27T18:45:36.6203628Z ##[endgroup]
+entrega	Obtener el proyecto	2026-10-27T18:45:36.6205515Z ##[group]Fetching the repository
+entrega	Obtener el proyecto	2026-10-27T18:45:36.6209194Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +078deb27a1c6e5d7053fa5ec0394197f094dd457:refs/remotes/origin/main
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4152972Z From https://github.com/Le0Padill4/divisor_cuenta
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4154351Z  * [new ref]         078deb27a1c6e5d7053fa5ec0394197f094dd457 -> origin/main
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4167297Z [command]/usr/bin/git branch --list --remote origin/main
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4200289Z   origin/main
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4211385Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4240298Z 078deb27a1c6e5d7053fa5ec0394197f094dd457
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4246796Z ##[endgroup]
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4247807Z ##[group]Determining the checkout info
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4248774Z ##[endgroup]
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4254172Z [command]/usr/bin/git sparse-checkout disable
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4320981Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4360316Z ##[group]Checking out the ref
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4366538Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4885565Z Switched to a new branch 'main'
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4890664Z branch 'main' set up to track 'origin/main'.
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4901295Z ##[endgroup]
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4957857Z [command]/usr/bin/git log -1 --format=%H
+entrega	Obtener el proyecto	2026-10-27T18:45:37.4992094Z 078deb27a1c6e5d7053fa5ec0394197f094dd457
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5004013Z ##[group]Removing auth
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5005149Z Removing SSH command configuration
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5010082Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5051520Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5298988Z Removing HTTP extra header
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5303468Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5342645Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5598334Z Removing includeIf entries pointing to credentials config files
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5599612Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5631029Z includeif.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git.path
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5632663Z includeif.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git/worktrees/*.path
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5634069Z includeif.gitdir:/github/workspace/.git.path
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5635367Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5640984Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git.path
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5668880Z /home/runner/work/_temp/git-credentials-5f6fb960-b870-48de-9c40-c3bb9eae6b92.config
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5681054Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-5f6fb960\-b870\-48de\-9c40\-c3bb9eae6b92\.config
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5726597Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git/worktrees/*.path
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5752321Z /home/runner/work/_temp/git-credentials-5f6fb960-b870-48de-9c40-c3bb9eae6b92.config
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5760720Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/divisor_cuenta/divisor_cuenta/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-5f6fb960\-b870\-48de\-9c40\-c3bb9eae6b92\.config
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5802507Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5829009Z /github/runner_temp/git-credentials-5f6fb960-b870-48de-9c40-c3bb9eae6b92.config
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5839505Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-5f6fb960\-b870\-48de\-9c40\-c3bb9eae6b92\.config
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5875225Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5900160Z /github/runner_temp/git-credentials-5f6fb960-b870-48de-9c40-c3bb9eae6b92.config
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5908343Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-5f6fb960\-b870\-48de\-9c40\-c3bb9eae6b92\.config
+entrega	Obtener el proyecto	2026-10-27T18:45:37.5943932Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+entrega	Obtener el proyecto	2026-10-27T18:45:37.6162510Z Removing credentials config '/home/runner/work/_temp/git-credentials-5f6fb960-b870-48de-9c40-c3bb9eae6b92.config'
+entrega	Obtener el proyecto	2026-10-27T18:45:37.6171577Z ##[endgroup]
+entrega	Preparar Java	﻿2026-10-27T18:45:37.6509238Z ##[group]Run actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad
+entrega	Preparar Java	2026-10-27T18:45:37.6509809Z with:
+entrega	Preparar Java	2026-10-27T18:45:37.6510120Z   distribution: temurin
+entrega	Preparar Java	2026-10-27T18:45:37.6510456Z   java-version: 17
+entrega	Preparar Java	2026-10-27T18:45:37.6510775Z   java-package: jdk
+entrega	Preparar Java	2026-10-27T18:45:37.6511102Z   check-latest: false
+entrega	Preparar Java	2026-10-27T18:45:37.6511432Z   force-download: false
+entrega	Preparar Java	2026-10-27T18:45:37.6511755Z   set-default: true
+entrega	Preparar Java	2026-10-27T18:45:37.6512061Z   server-id: github
+entrega	Preparar Java	2026-10-27T18:45:37.6512407Z   mvn-repositories-include-central: true
+entrega	Preparar Java	2026-10-27T18:45:37.6512872Z   mvn-repositories-prioritize-central: true
+entrega	Preparar Java	2026-10-27T18:45:37.6513305Z   overwrite-settings: true
+entrega	Preparar Java	2026-10-27T18:45:37.6513669Z   cache-read-only: false
+entrega	Preparar Java	2026-10-27T18:45:37.6514011Z   job-status: success
+entrega	Preparar Java	2026-10-27T18:45:37.6516865Z   token: ***
+entrega	Preparar Java	2026-10-27T18:45:37.6517208Z   show-download-progress: false
+entrega	Preparar Java	2026-10-27T18:45:37.6517584Z   problem-matcher: true
+entrega	Preparar Java	2026-10-27T18:45:37.6517910Z ##[endgroup]
+entrega	Preparar Java	2026-10-27T18:45:37.7272057Z ##[group]Installed distributions
+entrega	Preparar Java	2026-10-27T18:45:37.7482468Z Resolved Java 17.0.20+1 from tool-cache
+entrega	Preparar Java	2026-10-27T18:45:37.7483159Z Setting Java 17.0.20+1 as the default
+entrega	Preparar Java	2026-10-27T18:45:37.7491293Z 
+entrega	Preparar Java	2026-10-27T18:45:37.7491615Z Java configuration:
+entrega	Preparar Java	2026-10-27T18:45:37.7492290Z   Distribution: temurin
+entrega	Preparar Java	2026-10-27T18:45:37.7492749Z   Version: 17.0.20+1
+entrega	Preparar Java	2026-10-27T18:45:37.7493530Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Preparar Java	2026-10-27T18:45:37.7494025Z 
+entrega	Preparar Java	2026-10-27T18:45:37.7494667Z ##[endgroup]
+entrega	Preparar Java	2026-10-27T18:45:37.7523361Z Creating settings.xml with server-id: github
+entrega	Preparar Java	2026-10-27T18:45:37.7524290Z Creating toolchains.xml for JDK version 17 from temurin
+entrega	Preparar Java	2026-10-27T18:45:37.7526890Z Writing to /home/runner/.m2/settings.xml
+entrega	Preparar Java	2026-10-27T18:45:37.7537519Z Writing to /home/runner/.m2/toolchains.xml
+entrega	Preparar Java	2026-10-27T18:45:37.7545339Z Configured MAVEN_ARGS to include -ntp to suppress Maven transfer progress logs. Set 'show-download-progress: true' to keep the download progress output.
+entrega	Preparar Flutter estable	﻿2026-10-27T18:45:37.7910061Z ##[group]Run subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7911098Z with:
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7911489Z   channel: stable
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7911816Z   flutter-version: 3.47.8
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7912400Z   architecture: X64
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7912806Z   cache: false
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7913132Z   pub-cache-path: default
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7913463Z   dry-run: false
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7914043Z   git-source: https://github.com/flutter/flutter.git
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7914813Z env:
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7915491Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7916363Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7916910Z   MAVEN_ARGS: -ntp
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.7917217Z ##[endgroup]
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8008029Z ##[start-action display=Make yq tool available on Windows runners;id=__subosito_flutter-action.__run]
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8022226Z ##[end-action id=__subosito_flutter-action.__run;outcome=skipped;conclusion=skipped;duration_ms=0]
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8025452Z ##[start-action display=Make setup script executable;id=__subosito_flutter-action.__run_2]
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8069249Z ##[group]Run chmod +x "$GITHUB_ACTION_PATH/setup.sh"
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8069832Z ^[[36;1mchmod +x "$GITHUB_ACTION_PATH/setup.sh"^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8369475Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8370048Z env:
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8370510Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8371228Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8371777Z   MAVEN_ARGS: -ntp
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8372109Z ##[endgroup]
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8513419Z ##[end-action id=__subosito_flutter-action.__run_2;outcome=success;conclusion=success;duration_ms=48]
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8517307Z ##[start-action display=Set action inputs;id=__subosito_flutter-action.flutter-action]
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8562718Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh -p \
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8563236Z ^[[36;1m$GITHUB_ACTION_PATH/setup.sh -p \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8563654Z ^[[36;1m  -n '3.47.8' \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8563990Z ^[[36;1m  -f '' \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8564300Z ^[[36;1m  -a 'X64' \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8564824Z ^[[36;1m  -k '' \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8565129Z ^[[36;1m  -c '' \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8565444Z ^[[36;1m  -l '' \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8565754Z ^[[36;1m  -d 'default' \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8566183Z ^[[36;1m  -g 'https://github.com/flutter/flutter.git' \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8566631Z ^[[36;1m  stable^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8632621Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8633090Z env:
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8633511Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8634154Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8634848Z   MAVEN_ARGS: -ntp
+entrega	Preparar Flutter estable	2026-10-27T18:45:37.8635177Z ##[endgroup]
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0258517Z ##[end-action id=__subosito_flutter-action.flutter-action;outcome=success;conclusion=success;duration_ms=173]
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0264208Z ##[start-action display=Cache Flutter;id=__subosito_flutter-action.cache-flutter]
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0270566Z ##[end-action id=__subosito_flutter-action.cache-flutter;outcome=skipped;conclusion=skipped;duration_ms=0]
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0273261Z ##[start-action display=Cache pub dependencies;id=__subosito_flutter-action.cache-pub]
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0282412Z ##[end-action id=__subosito_flutter-action.cache-pub;outcome=skipped;conclusion=skipped;duration_ms=0]
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0285438Z ##[start-action display=Run setup script;id=__subosito_flutter-action.__run_3]
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0328814Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh \
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0329266Z ^[[36;1m$GITHUB_ACTION_PATH/setup.sh \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0329655Z ^[[36;1m  -n '3.47.8' \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0329989Z ^[[36;1m  -a 'x64' \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0330607Z ^[[36;1m  -c '/opt/hostedtoolcache/flutter/stable-3.47.8-x64' \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0331095Z ^[[36;1m  -d '/home/runner/.pub-cache' \^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0331474Z ^[[36;1m  stable^[[0m
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0403821Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0404289Z env:
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0404992Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0405646Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0406333Z   MAVEN_ARGS: -ntp
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.0406640Z ##[endgroup]
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.1986621Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.1987753Z                                  Dload  Upload   Total   Spent    Left  Speed
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.1988337Z 
+entrega	Preparar Flutter estable	2026-10-27T18:45:38.3573750Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+entrega	Preparar Flutter estable	2026-10-27T18:45:39.3582441Z   0 1508M    0 31447    0     0   193k      0  2:13:06 --:--:--  2:13:06  193k
+entrega	Preparar Flutter estable	2026-10-27T18:45:40.3553687Z  11 1508M   11  168M    0     0   145M      0  0:00:10  0:00:01  0:00:09  145M
+entrega	Preparar Flutter estable	2026-10-27T18:45:41.3581668Z  25 1508M   25  383M    0     0   177M      0  0:00:08  0:00:02  0:00:06  177M
+entrega	Preparar Flutter estable	2026-10-27T18:45:42.3552121Z  39 1508M   39  602M    0     0   190M      0  0:00:07  0:00:03  0:00:04  190M
+entrega	Preparar Flutter estable	2026-10-27T18:45:43.3683075Z  52 1508M   52  785M    0     0   189M      0  0:00:07  0:00:04  0:00:03  189M
+entrega	Preparar Flutter estable	2026-10-27T18:45:44.3600452Z  65 1508M   65  986M    0     0   190M      0  0:00:07  0:00:05  0:00:02  196M
+entrega	Preparar Flutter estable	2026-10-27T18:45:45.3552200Z  77 1508M   77 1172M    0     0   190M      0  0:00:07  0:00:06  0:00:01  200M
+entrega	Preparar Flutter estable	2026-10-27T18:45:46.0304001Z  89 1508M   89 1357M    0     0   189M      0  0:00:07  0:00:07 --:--:--  194M
+entrega	Preparar Flutter estable	2026-10-27T18:45:46.0305054Z 100 1508M  100 1508M    0     0   192M      0  0:00:07  0:00:07 --:--:--  193M
+entrega	Preparar Flutter estable	2026-10-27T18:46:37.2557810Z ##[end-action id=__subosito_flutter-action.__run_3;outcome=success;conclusion=success;duration_ms=59227]
+entrega	Instalar dependencias	﻿2026-10-27T18:46:37.2622271Z ##[group]Run flutter pub get
+entrega	Instalar dependencias	2026-10-27T18:46:37.2622593Z ^[[36;1mflutter pub get^[[0m
+entrega	Instalar dependencias	2026-10-27T18:46:37.2685738Z shell: /usr/bin/bash -e {0}
+entrega	Instalar dependencias	2026-10-27T18:46:37.2686083Z env:
+entrega	Instalar dependencias	2026-10-27T18:46:37.2686488Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Instalar dependencias	2026-10-27T18:46:37.2687225Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Instalar dependencias	2026-10-27T18:46:37.2687769Z   MAVEN_ARGS: -ntp
+entrega	Instalar dependencias	2026-10-27T18:46:37.2688185Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.47.8-x64/flutter
+entrega	Instalar dependencias	2026-10-27T18:46:37.2688734Z   PUB_CACHE: /home/runner/.pub-cache
+entrega	Instalar dependencias	2026-10-27T18:46:37.2689079Z ##[endgroup]
+entrega	Instalar dependencias	2026-10-27T18:46:41.7234238Z Resolving dependencies...
+entrega	Instalar dependencias	2026-10-27T18:46:41.8714999Z Downloading packages...
+entrega	Instalar dependencias	2026-10-27T18:46:42.8048573Z   material_color_utilities 0.13.0 (0.13.1 available)
+entrega	Instalar dependencias	2026-10-27T18:46:42.8049665Z   meta 1.18.3 (1.19.0 available)
+entrega	Instalar dependencias	2026-10-27T18:46:42.8050062Z   test_api 0.7.12 (0.7.15 available)
+entrega	Instalar dependencias	2026-10-27T18:46:42.8050633Z   vector_math 2.4.0 (2.4.4 available)
+entrega	Instalar dependencias	2026-10-27T18:46:42.8051257Z   vm_service 15.3.0 (15.4.0 available)
+entrega	Instalar dependencias	2026-10-27T18:46:42.8051766Z Got dependencies!
+entrega	Instalar dependencias	2026-10-27T18:46:42.8052437Z 5 packages have newer versions incompatible with dependency constraints.
+entrega	Instalar dependencias	2026-10-27T18:46:42.8053344Z Try `flutter pub outdated` for more information.
+entrega	Volver a generar el APK en este job	﻿2026-10-27T18:46:42.9946598Z ##[group]Run flutter build apk --debug
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:42.9947183Z ^[[36;1mflutter build apk --debug^[[0m
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.0009773Z shell: /usr/bin/bash -e {0}
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.0010064Z env:
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.0010399Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.0010931Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.0011325Z   MAVEN_ARGS: -ntp
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.0011638Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.47.8-x64/flutter
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.0012015Z   PUB_CACHE: /home/runner/.pub-cache
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.0012273Z ##[endgroup]
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.2211627Z Resolving dependencies...
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.2431020Z Downloading packages...
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.2441164Z   material_color_utilities 0.13.0 (0.13.1 available)
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.2441733Z   meta 1.18.3 (1.19.0 available)
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.2442217Z   test_api 0.7.12 (0.7.15 available)
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.2442708Z   vector_math 2.4.0 (2.4.4 available)
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.2443231Z   vm_service 15.3.0 (15.4.0 available)
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.2443589Z Got dependencies!
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.2444245Z 5 packages have newer versions incompatible with dependency constraints.
+entrega	Volver a generar el APK en este job	2026-10-27T18:46:43.2444894Z Try `flutter pub outdated` for more information.
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:22.3862766Z Running Gradle task 'assembleDebug'...                          
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:22.3866636Z Loading package information...                                                  
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:22.4832280Z Loading local repository...                                                     
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:22.4833741Z [                                       ] 3% Loading local repository...        
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:22.9007731Z [                                       ] 3% Fetch remote repository...         
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:23.4791825Z [=                                      ] 3% Fetch remote repository...         
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:23.5817407Z [=                                      ] 4% Fetch remote repository...         
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:23.5822352Z [=                                      ] 5% Fetch remote repository...         
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:23.6793355Z [==                                     ] 5% Fetch remote repository...         
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:23.6812997Z [==                                     ] 6% Fetch remote repository...         
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:23.8794073Z [==                                     ] 7% Fetch remote repository...         
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:23.8802390Z [==                                     ] 7% Computing updates...               
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:23.8803473Z [===                                    ] 8% Computing updates...               
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:23.8835247Z [===                                    ] 10% Computing updates...              
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:23.9790628Z [===                                    ] 10% Installing NDK (Side by side) 28.2
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:24.2790414Z [===                                    ] 10% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:24.5789272Z [====                                   ] 10% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:25.2788747Z [====                                   ] 11% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:25.6789728Z [====                                   ] 12% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:25.7790121Z [=====                                  ] 13% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:26.1788794Z [=====                                  ] 14% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:26.2787977Z [=====                                  ] 15% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:26.3790837Z [======                                 ] 15% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:26.4790995Z [======                                 ] 16% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:26.5791659Z [======                                 ] 17% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:26.5793483Z [=======                                ] 18% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:26.7789301Z [=======                                ] 19% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:26.8789823Z [=======                                ] 20% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:26.8791089Z [========                               ] 20% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:26.9789429Z [========                               ] 21% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:27.0790604Z [========                               ] 22% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:27.1790879Z [=========                              ] 23% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:27.4789279Z [=========                              ] 24% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:27.4790592Z [=========                              ] 25% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:27.4791713Z [==========                             ] 25% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:27.6789436Z [==========                             ] 26% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:27.6791435Z [==========                             ] 27% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:27.8791613Z [===========                            ] 28% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:27.8810736Z [===========                            ] 29% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:27.9795747Z [===========                            ] 30% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:27.9797002Z [============                           ] 30% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:28.0791368Z [============                           ] 31% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:28.1791812Z [============                           ] 32% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:28.1793054Z [============                           ] 33% Downloading android-ndk-r28c-linux
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:28.5806140Z [============                           ] 33% Unzipping...                      
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:28.5857206Z [============                           ] 33% Unzipping... android-ndk-r28c/    
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:28.5905651Z [============                           ] 33% Unzipping... android-ndk-r28c/READ
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:28.5935317Z [=============                          ] 33% Unzipping... android-ndk-r28c/READ
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:28.5936493Z [=============                          ] 33% Unzipping... android-ndk-r28c/meta
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:28.6789980Z [=============                          ] 33% Unzipping... android-ndk-r28c/shad
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:28.6795285Z [=============                          ] 33% Unzipping... android-ndk-r28c/ndk-
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:28.6796420Z [=============                          ] 33% Unzipping... android-ndk-r28c/wrap
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:28.6797350Z [=============                          ] 33% Unzipping... android-ndk-r28c/ndk-
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:29.0789314Z [=============                          ] 33% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:29.5793148Z [=============                          ] 34% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:29.8789673Z [=============                          ] 35% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:30.0790965Z [==============                         ] 35% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:30.4789864Z [==============                         ] 36% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:31.0790732Z [==============                         ] 37% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:31.3790544Z [===============                        ] 38% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:31.7789918Z [===============                        ] 39% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:31.9789365Z [===============                        ] 40% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:32.1789685Z [================                       ] 40% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:32.6789080Z [================                       ] 41% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:33.1789684Z [================                       ] 42% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:33.8791392Z [=================                      ] 43% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:34.3789295Z [=================                      ] 44% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:34.6789424Z [=================                      ] 45% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:35.6789564Z [==================                     ] 45% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:36.0789751Z [==================                     ] 46% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:36.4789125Z [==================                     ] 47% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:36.8789490Z [===================                    ] 48% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:37.3789650Z [===================                    ] 49% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:37.4789278Z [===================                    ] 50% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:37.6790534Z [====================                   ] 50% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:38.1790113Z [====================                   ] 51% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:38.5789049Z [====================                   ] 52% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:38.9789109Z [=====================                  ] 53% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.1791034Z [=====================                  ] 54% Unzipping... android-ndk-r28c/tool
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.1795640Z [=====================                  ] 54% Unzipping... android-ndk-r28c/buil
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.4790011Z [=====================                  ] 54% Unzipping... android-ndk-r28c/sour
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.4790854Z [=====================                  ] 54% Unzipping... android-ndk-r28c/NOTI
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.4797293Z [=====================                  ] 54% Unzipping... android-ndk-r28c/ndk-
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.4798059Z [=====================                  ] 54% Unzipping... android-ndk-r28c/NOTI
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.4798773Z [=====================                  ] 54% Unzipping... android-ndk-r28c/pyth
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.4799456Z [=====================                  ] 54% Unzipping... android-ndk-r28c/preb
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.4800138Z [=====================                  ] 54% Unzipping... android-ndk-r28c/ndk-
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.4800805Z [=====================                  ] 54% Unzipping... android-ndk-r28c/sour
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.5788473Z [=====================                  ] 54% Unzipping... android-ndk-r28c/simp
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.6787501Z [=====================                  ] 55% Unzipping... android-ndk-r28c/simp
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.8791917Z [=====================                  ] 55% Unzipping... android-ndk-r28c/CHAN
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:39.8792542Z [=======================================] 100% Unzipping... android-ndk-r28c/CHA
+entrega	Volver a generar el APK en este job	2026-10-27T18:48:40.2789089Z 
+entrega	Volver a generar el APK en este job	2026-10-27T18:49:54.7602154Z Running Gradle task 'assembleDebug'...                            191.2s
+entrega	Volver a generar el APK en este job	2026-10-27T18:49:55.9469926Z ✓ Built build/app/outputs/flutter-apk/app-debug.apk
+entrega	Publicar el APK	﻿2026-10-27T18:49:55.9617197Z ##[group]Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+entrega	Publicar el APK	2026-10-27T18:49:55.9617627Z with:
+entrega	Publicar el APK	2026-10-27T18:49:55.9617821Z   name: app-debug.apk
+entrega	Publicar el APK	2026-10-27T18:49:55.9618080Z   path: build/app/outputs/flutter-apk/app-debug.apk
+entrega	Publicar el APK	2026-10-27T18:49:55.9618391Z   if-no-files-found: error
+entrega	Publicar el APK	2026-10-27T18:49:55.9618622Z   compression-level: 6
+entrega	Publicar el APK	2026-10-27T18:49:55.9618831Z   overwrite: false
+entrega	Publicar el APK	2026-10-27T18:49:55.9619045Z   include-hidden-files: false
+entrega	Publicar el APK	2026-10-27T18:49:55.9620050Z   archive: true
+entrega	Publicar el APK	2026-10-27T18:49:55.9620253Z env:
+entrega	Publicar el APK	2026-10-27T18:49:55.9620566Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Publicar el APK	2026-10-27T18:49:55.9621055Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+entrega	Publicar el APK	2026-10-27T18:49:55.9621448Z   MAVEN_ARGS: -ntp
+entrega	Publicar el APK	2026-10-27T18:49:55.9621758Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.47.8-x64/flutter
+entrega	Publicar el APK	2026-10-27T18:49:55.9622129Z   PUB_CACHE: /home/runner/.pub-cache
+entrega	Publicar el APK	2026-10-27T18:49:55.9622380Z ##[endgroup]
+entrega	Publicar el APK	2026-10-27T18:49:56.1193889Z With the provided path, there will be 1 file uploaded
+entrega	Publicar el APK	2026-10-27T18:49:56.1203499Z Artifact name is valid!
+entrega	Publicar el APK	2026-10-27T18:49:56.1205820Z Root directory input is valid!
+entrega	Publicar el APK	2026-10-27T18:49:56.5751340Z Uploading artifact: app-debug.apk.zip
+entrega	Publicar el APK	2026-10-27T18:49:56.5802664Z Beginning upload of artifact content to blob storage
+entrega	Publicar el APK	2026-10-27T18:49:58.4118222Z Uploaded bytes 8388608
+entrega	Publicar el APK	2026-10-27T18:49:59.0964874Z Uploaded bytes 16777216
+entrega	Publicar el APK	2026-10-27T18:49:59.1226111Z Uploaded bytes 25165824
+entrega	Publicar el APK	2026-10-27T18:49:59.8647664Z Uploaded bytes 33554432
+entrega	Publicar el APK	2026-10-27T18:50:00.6624909Z Uploaded bytes 41943040
+entrega	Publicar el APK	2026-10-27T18:50:00.9820616Z Uploaded bytes 50331648
+entrega	Publicar el APK	2026-10-27T18:50:01.4968980Z Uploaded bytes 58720256
+entrega	Publicar el APK	2026-10-27T18:50:01.5184399Z Uploaded bytes 67108864
+entrega	Publicar el APK	2026-10-27T18:50:01.6664099Z Uploaded bytes 69920763
+entrega	Publicar el APK	2026-10-27T18:50:01.7374018Z Finished uploading artifact content to blob storage!
+entrega	Publicar el APK	2026-10-27T18:50:01.7391360Z SHA256 digest of uploaded artifact is 0d2a10771fb50f5f7e30e6ed954a0e48edb3547f8cf59c8650676be5d0043122
+entrega	Publicar el APK	2026-10-27T18:50:01.7393028Z Finalizing artifact upload
+entrega	Publicar el APK	2026-10-27T18:50:02.4472699Z Artifact app-debug.apk successfully finalized. Artifact ID 12761702748
+entrega	Publicar el APK	2026-10-27T18:50:02.4473921Z Artifact app-debug.apk has been successfully uploaded! Final size is 69920763 bytes. Artifact ID is 12761702748
+entrega	Publicar el APK	2026-10-27T18:50:02.4483403Z Artifact download URL: https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40562278119/artifacts/12761702748
+entrega	Post Preparar Flutter estable	﻿2026-10-27T18:50:02.4791429Z Post job cleanup.
+entrega	Post Preparar Java	﻿2026-10-27T18:50:02.4885092Z Post job cleanup.
+entrega	Post Obtener el proyecto	﻿2026-10-27T18:50:02.5779940Z Post job cleanup.
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.6748608Z [command]/usr/bin/git version
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.6797551Z git version 2.55.0
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.6870522Z Temporarily overriding HOME='/home/runner/work/_temp/a5cc8ac2-e330-4b34-a781-66dd99f02c6f' before making global git config changes
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.6872387Z Adding repository directory to the temporary git global config as a safe directory
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.6877789Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/divisor_cuenta/divisor_cuenta
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.6913037Z Removing SSH command configuration
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.6920594Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.6956565Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.7235101Z Removing HTTP extra header
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.7236336Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.7259867Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.7533791Z Removing includeIf entries pointing to credentials config files
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.7541698Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+entrega	Post Obtener el proyecto	2026-10-27T18:50:02.7583179Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+entrega	Complete job	﻿2026-10-27T18:50:02.7992834Z Cleaning up orphan processes
+entrega	Complete job	2026-10-27T18:50:02.8415780Z Terminate orphan process: pid (2820) (java)
+entrega	Complete job	2026-10-27T18:50:02.8455535Z Terminate orphan process: pid (2936) (java)
+entrega	Complete job	2026-10-27T18:50:02.8492323Z Terminate orphan process: pid (3146) (java)
