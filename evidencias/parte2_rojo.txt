@@ -1,0 +1,36 @@
+$ flutter test --reporter expanded
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+Got dependencies!
+4 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart
+00:00 +0: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+00:00 +1: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+00:00 +2: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+00:00 +3: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+00:00 +4: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+00:00 +5: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+00:00 +6: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+00:00 +6 -1: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+00:00 +6 -1: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart: propina de 150 devuelve el error de máximo 100% [E]
+  Expected: 'La propina no puede superar el 100%'
+    Actual: <null>
+     Which: not an <Instance of 'String'>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test/division_test.dart 40:5                        main.<fn>
+  
+00:00 +7 -1: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+00:00 +8 -1: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: calcula el reparto normal
+00:00 +9 -1: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: cero personas muestra error y no resultado
+00:00 +10 -1: /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/pantalla_test.dart: monto no numérico muestra error
+00:00 +11 -1: Some tests failed.
+
+Failing tests:
+  /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta/test/division_test.dart: propina de 150 devuelve el error de máximo 100%

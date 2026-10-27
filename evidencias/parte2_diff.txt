@@ -1,0 +1,23 @@
+diff --git a/test/division_test.dart b/test/division_test.dart
+index 7c57128..c3868ac 100644
+--- a/test/division_test.dart
++++ b/test/division_test.dart
+@@ -34,6 +34,18 @@ void main() {
+     });
+   }
+ 
++  test('propina de 150 devuelve el error de máximo 100%', () {
++    const cuenta = Cuenta(monto: 100, personas: 4, porcentajePropina: 150);
++
++    expect(validar.validar(cuenta), 'La propina no puede superar el 100%');
++  });
++
++  test('propina de exactamente 100 no devuelve error', () {
++    const cuenta = Cuenta(monto: 100, personas: 4, porcentajePropina: 100);
++
++    expect(validar.validar(cuenta), isNull);
++  });
++
+   test('CalcularDivision acepta ambas estrategias sin conocer su tipo', () {
+     const cuenta = Cuenta(monto: 10, personas: 3, porcentajePropina: 0);
+     final EstrategiaRedondeo estrategiaExacta = exacto;

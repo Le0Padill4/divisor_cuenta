@@ -1,5 +1,16 @@
 # Divisor de cuenta — Flutter SDD
 
+## Deber 3 — rama deber3
+
+Regla nueva: la propina no puede superar el 100 %; exactamente 100 % está permitido.
+Verificación: 12/12 pruebas y análisis sin avisos. Historial con rojo, verde y refactor.
+
+- [Cuatro respuestas cortas](respuestas.md)
+- [Recorrido y evidencia del deber](entrega_deber3.md)
+- [Siete capturas](evidencias/README_deber3.md)
+
+## Antecedente — Semana 7 y Deber 2
+
 Original del laboratorio, exportado de ClaseApps/sdd sin modificar su spec ni código.
 [Procedencia e historial](PROCEDENCIA.md).
 

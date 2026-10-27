@@ -1,0 +1,3 @@
+$ git diff --stat
+ lib/domain/validar_entrada.dart | 3 +++
+ 1 file changed, 3 insertions(+)

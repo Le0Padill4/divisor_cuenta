@@ -1,0 +1,19 @@
+$ python3 /var/folders/nh/x9h4ymd56cs_2j5dmvrw115h0000gn/T/divisor-cuenta-deber3-84sotioh/tabla_coverage.py coverage/lcov.info
+| Archivo | Cubiertas | Medidas | Porcentaje |
+|---|---:|---:|---:|
+| lib/data/redondeo_exacto.dart | 2 | 2 | 100.00% |
+| lib/data/redondeo_hacia_arriba.dart | 2 | 2 | 100.00% |
+| lib/domain/calcular_division.dart | 5 | 5 | 100.00% |
+| lib/domain/cuenta.dart | 1 | 1 | 100.00% |
+| lib/domain/estrategia_redondeo.dart | — | — | N/D |
+| lib/domain/resultado.dart | 1 | 1 | 100.00% |
+| lib/domain/validar_entrada.dart | 5 | 5 | 100.00% |
+| lib/main.dart | 5 | 14 | 35.71% |
+| lib/presentation/divisor_controller.dart | 15 | 15 | 100.00% |
+| lib/presentation/formateador_moneda.dart | 1 | 1 | 100.00% |
+| lib/presentation/pantalla_divisor.dart | 34 | 36 | 94.44% |
+| Total medido | 71 | 82 | 86.59% |
+
+N/D: archivo sin líneas registradas en LCOV; no se le asigna un porcentaje ficticio.
+estrategia_redondeo.dart solo declara una interfaz, sin un cuerpo que ejecutar.
+El porcentaje cuenta líneas ejecutadas, no garantiza que el código sea correcto.

@@ -1,0 +1,10 @@
+{
+  "source": "coverage/lcov.info",
+  "sha256": "7efdfe0358b4a55869d61c00cf9b05ee6e819106139699725de34d8ebae9837f",
+  "coveredLines": 71,
+  "measuredLines": 82,
+  "lowestFile": "lib/main.dart",
+  "lowestCoveredLines": 5,
+  "lowestMeasuredLines": 14,
+  "coverageIgnored": ".gitignore:34:/coverage/\tcoverage/lcov.info"
+}

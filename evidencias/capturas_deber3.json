@@ -1,0 +1,72 @@
+[
+  {
+    "file": "evidencias/parte1_verde.png",
+    "sha256": "5c8752417025badff289cf962f128b8bd49d9f0518a20b6a143751a198a43e3a",
+    "sourceScreenshotSha256": "bc21485833916a583b07a2dc1d8f9aed40b0d685b3fda0fd1d8654c302cf7077",
+    "sourceFileSavedAtUtc": "2026-10-13T00:53:26.718751+00:00",
+    "displayedLog": "evidencias/parte1_verde.txt",
+    "logSha256": "ace93df882fe76335d072a884a70ae611c6640abe5fe56024e74618046ccb660",
+    "method": "Captura auténtica con cua_repl de VS Code mostrando la salida guardada de una ejecución real.",
+    "encoding": "cua_repl entregó JPEG; sips convirtió a PNG sin recortar ni redibujar."
+  },
+  {
+    "file": "evidencias/parte2_rojo.png",
+    "sha256": "25720b34c0272502a95177cc10a7fdc231bf5614bfa50cadeea2eb1891b72764",
+    "sourceScreenshotSha256": "f4d3a00adf25c2b37fd58f337b2360bd58fa99a8a807fa6628d27bf504d1ef23",
+    "sourceFileSavedAtUtc": "2026-10-13T00:54:35.587127+00:00",
+    "displayedLog": "evidencias/parte2_rojo.txt",
+    "logSha256": "6cf23c50737aba4246699f836b5e5ac32faa006572e5e69d3eb9de2d2f289659",
+    "method": "Captura auténtica con cua_repl de VS Code mostrando la salida guardada de una ejecución real.",
+    "encoding": "cua_repl entregó JPEG; sips convirtió a PNG sin recortar ni redibujar."
+  },
+  {
+    "file": "evidencias/parte3_verde.png",
+    "sha256": "58c5d1295ff8cc521900311f3c1416f002e77a1187c8ca2732b95f8d0b355358",
+    "sourceScreenshotSha256": "fce9edeb722f7e34567b5a12f7aadf8f7fb22d88703c19632e8fa8a42becb3be",
+    "sourceFileSavedAtUtc": "2026-10-13T00:55:10.995518+00:00",
+    "displayedLog": "evidencias/parte3_verde.txt",
+    "logSha256": "29e97bbe0ae4990b68d3725805cc66f0d4d501dc09789f5ae271224d542c0f11",
+    "method": "Captura auténtica con cua_repl de VS Code mostrando la salida guardada de una ejecución real.",
+    "encoding": "cua_repl entregó JPEG; sips convirtió a PNG sin recortar ni redibujar."
+  },
+  {
+    "file": "evidencias/parte4_analyze.png",
+    "sha256": "6a74a23ca569566417c1dbcc83d53635db2e935bc99079e0aa23039cc03ffe24",
+    "sourceScreenshotSha256": "fe7897d6a3372ee6e45fdf0ba7871e08734c1a17284a75274ba75b72c67cf426",
+    "sourceFileSavedAtUtc": "2026-10-13T00:56:18.023315+00:00",
+    "displayedLog": "evidencias/parte4_analyze.txt",
+    "logSha256": "1209d58428a800c45bf9a9e46ae893c88d429c4785416ed75a7a34f4bfb6561d",
+    "method": "Captura auténtica con cua_repl de VS Code mostrando la salida guardada de una ejecución real.",
+    "encoding": "cua_repl entregó JPEG; sips convirtió a PNG sin recortar ni redibujar."
+  },
+  {
+    "file": "evidencias/parte6_refactor.png",
+    "sha256": "da6f65541528dcb67fe1022cb7f397d82cb90c868d92925ac801f6e9749ec6eb",
+    "sourceScreenshotSha256": "a9f4e64eeaab68e7223822f82e2f4804ee66443a3fb43645209e866d71d0cd0e",
+    "sourceFileSavedAtUtc": "2026-10-13T00:58:44.393569+00:00",
+    "displayedLog": "evidencias/parte6_refactor.txt",
+    "logSha256": "29e97bbe0ae4990b68d3725805cc66f0d4d501dc09789f5ae271224d542c0f11",
+    "method": "Captura auténtica con cua_repl de VS Code mostrando la salida guardada de una ejecución real.",
+    "encoding": "cua_repl entregó JPEG; sips convirtió a PNG sin recortar ni redibujar."
+  },
+  {
+    "file": "evidencias/parte7_coverage.png",
+    "sha256": "1c7fd8830dcae78831077baaa0c666584d20813171affc8022dc8237add5e88b",
+    "sourceScreenshotSha256": "28cad4641953618feff6b4dcf810f0339044fdd0b34bcceb3238666b71c52398",
+    "sourceFileSavedAtUtc": "2026-10-13T01:00:07.173977+00:00",
+    "displayedLog": "evidencias/parte7_coverage.txt",
+    "logSha256": "ba62c0cbd72d637f1800a8a3a08b01f1937a704add64f057ce0324ee308b26fc",
+    "method": "Captura auténtica con cua_repl de VS Code mostrando la salida guardada de una ejecución real.",
+    "encoding": "cua_repl entregó JPEG; sips convirtió a PNG sin recortar ni redibujar."
+  },
+  {
+    "file": "evidencias/parte8_log.png",
+    "sha256": "92f46077a5103411f98a7c70af95bb0b623d7b5be012d6fed4b00f4122ed274c",
+    "sourceScreenshotSha256": "87182897132928765811aad27cf8537bb9516ecf861368a5e907fcf091c0ea9f",
+    "sourceFileSavedAtUtc": "2026-10-13T01:01:48.507607+00:00",
+    "displayedLog": "evidencias/parte8_log.txt",
+    "logSha256": "a97bd1c4d1087e50985ee577205d9c7e1921e0a093e6eb3fa3e70bd4d84a74cf",
+    "method": "Captura auténtica con cua_repl de VS Code mostrando la salida guardada de una ejecución real.",
+    "encoding": "cua_repl entregó JPEG; sips convirtió a PNG sin recortar ni redibujar."
+  }
+]
