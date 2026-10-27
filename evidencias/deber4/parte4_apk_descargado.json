@@ -1,0 +1,13 @@
+{
+  "runId": 40562278119,
+  "runUrl": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40562278119",
+  "sourceCommit": "078deb27a1c6e5d7053fa5ec0394197f094dd457",
+  "artifactId": 12761702748,
+  "artifactName": "app-debug.apk",
+  "artifactArchiveDigest": "sha256:0d2a10771fb50f5f7e30e6ed954a0e48edb3547f8cf59c8650676be5d0043122",
+  "downloadedApkSha256": "ec8854b20233883c34621465e8a29b986481dc772cf2077a38cffb4f35f39d65",
+  "downloadedApkBytes": 150356274,
+  "downloadedAtUtc": "2026-10-27T18:52:55.532338+00:00",
+  "containsAndroidManifestAndDex": true,
+  "zipIntegrityVerified": true
+}

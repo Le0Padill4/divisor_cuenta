@@ -1,0 +1,25 @@
+{
+  "total_count": 1,
+  "artifacts": [
+    {
+      "id": 12761702748,
+      "node_id": "MDg6QXJ0aWZhY3QxMjc2MTcwMjc0OA==",
+      "name": "app-debug.apk",
+      "size_in_bytes": 69920763,
+      "url": "https://api.github.com/repos/Le0Padill4/divisor_cuenta/actions/artifacts/12761702748",
+      "archive_download_url": "https://api.github.com/repos/Le0Padill4/divisor_cuenta/actions/artifacts/12761702748/zip",
+      "expired": false,
+      "digest": "sha256:0d2a10771fb50f5f7e30e6ed954a0e48edb3547f8cf59c8650676be5d0043122",
+      "created_at": "2026-10-27T18:50:02Z",
+      "updated_at": "2026-10-27T18:50:02Z",
+      "expires_at": "2027-01-25T18:41:18Z",
+      "workflow_run": {
+        "id": 40562278119,
+        "repository_id": 1412690402,
+        "head_repository_id": 1412690402,
+        "head_branch": "main",
+        "head_sha": "078deb27a1c6e5d7053fa5ec0394197f094dd457"
+      }
+    }
+  ]
+}

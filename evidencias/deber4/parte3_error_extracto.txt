@@ -1,0 +1,13 @@
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4507964Z ##[group]❌ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 1. reparto normal (failed)
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4509888Z Expected: a numeric value within <0.001> of <27.0>
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4511127Z   Actual: <27.5>
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4526144Z test/division_test.dart 33:7                        main.<fn>
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4603727Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 2. sin propina
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4621660Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 3. cero personas
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4632580Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 4. monto no numerico
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4660878Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 5. redondeo exacto
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4696999Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: 6. redondeo hacia arriba
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4729896Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: propina de 150 devuelve el error de máximo 100%
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4771991Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: propina de exactamente 100 no devuelve error
+verificar	Ejecutar las pruebas	2026-10-27T18:21:15.4781725Z ✅ /home/runner/work/divisor_cuenta/divisor_cuenta/test/division_test.dart: CalcularDivision acepta ambas estrategias sin conocer su tipo
+verificar	Ejecutar las pruebas	2026-10-27T18:21:17.0797794Z ##[error]Process completed with exit code 1.

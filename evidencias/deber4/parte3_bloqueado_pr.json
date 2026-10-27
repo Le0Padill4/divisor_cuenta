@@ -1,0 +1,21 @@
+{
+  "baseRefName": "main",
+  "headRefName": "ci/rojo-a-proposito",
+  "headRefOid": "5f9c0ec926f0f02fcef6b968a0d35fe88bcdf4d6",
+  "mergeStateStatus": "BLOCKED",
+  "number": 3,
+  "state": "OPEN",
+  "statusCheckRollup": [
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-10-27T18:21:19Z",
+      "conclusion": "FAILURE",
+      "detailsUrl": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40558941427/job/122382428944",
+      "name": "verificar",
+      "startedAt": "2026-10-27T18:19:48Z",
+      "status": "COMPLETED",
+      "workflowName": "CI Flutter"
+    }
+  ],
+  "url": "https://github.com/Le0Padill4/divisor_cuenta/pull/3"
+}

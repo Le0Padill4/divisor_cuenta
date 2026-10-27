@@ -1,0 +1,13 @@
+{
+  "baseRefName": "main",
+  "headRefName": "deber3",
+  "headRefOid": "778be5963e4f85fc45fea639932c8d156b1ae6b6",
+  "mergeCommit": {
+    "oid": "afddf1af7cbedc67bab02a2d8452f71e21103db9"
+  },
+  "mergedAt": "2026-10-27T18:11:27Z",
+  "number": 1,
+  "state": "MERGED",
+  "title": "Preparar main con el divisor de cuenta del Deber 3",
+  "url": "https://github.com/Le0Padill4/divisor_cuenta/pull/1"
+}

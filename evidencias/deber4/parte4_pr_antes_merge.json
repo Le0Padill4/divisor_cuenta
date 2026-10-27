@@ -1,0 +1,28 @@
+{
+  "headRefOid": "c6b85cb6b37c0fd251679d86bd82e5b2a2615f64",
+  "mergeStateStatus": "CLEAN",
+  "number": 4,
+  "statusCheckRollup": [
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-10-27T18:39:23Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40561286523/job/122390684702",
+      "name": "verificar",
+      "startedAt": "2026-10-27T18:34:51Z",
+      "status": "COMPLETED",
+      "workflowName": "CI Flutter"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-10-27T18:39:24Z",
+      "conclusion": "SKIPPED",
+      "detailsUrl": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40561286523/job/122393169952",
+      "name": "entrega",
+      "startedAt": "2026-10-27T18:39:24Z",
+      "status": "COMPLETED",
+      "workflowName": "CI Flutter"
+    }
+  ],
+  "url": "https://github.com/Le0Padill4/divisor_cuenta/pull/4"
+}

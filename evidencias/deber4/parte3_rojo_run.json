@@ -1,0 +1,119 @@
+{
+  "conclusion": "failure",
+  "createdAt": "2026-10-27T18:19:45Z",
+  "databaseId": 40558941427,
+  "event": "pull_request",
+  "headSha": "5f9c0ec926f0f02fcef6b968a0d35fe88bcdf4d6",
+  "jobs": [
+    {
+      "completedAt": "2026-10-27T18:21:19Z",
+      "conclusion": "failure",
+      "databaseId": 122382428944,
+      "name": "verificar",
+      "startedAt": "2026-10-27T18:19:48Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-27T18:19:51Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-27T18:19:49Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:19:53Z",
+          "conclusion": "success",
+          "name": "Obtener el proyecto",
+          "number": 2,
+          "startedAt": "2026-10-27T18:19:51Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:19:54Z",
+          "conclusion": "success",
+          "name": "Preparar Java",
+          "number": 3,
+          "startedAt": "2026-10-27T18:19:53Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:20:53Z",
+          "conclusion": "success",
+          "name": "Preparar Flutter estable",
+          "number": 4,
+          "startedAt": "2026-10-27T18:19:54Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:20:58Z",
+          "conclusion": "success",
+          "name": "Instalar dependencias",
+          "number": 5,
+          "startedAt": "2026-10-27T18:20:53Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:21:06Z",
+          "conclusion": "success",
+          "name": "Analizar el c\u00f3digo",
+          "number": 6,
+          "startedAt": "2026-10-27T18:20:58Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:21:17Z",
+          "conclusion": "failure",
+          "name": "Ejecutar las pruebas",
+          "number": 7,
+          "startedAt": "2026-10-27T18:21:06Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:21:17Z",
+          "conclusion": "skipped",
+          "name": "Compilar el APK de depuraci\u00f3n",
+          "number": 8,
+          "startedAt": "2026-10-27T18:21:17Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:21:17Z",
+          "conclusion": "success",
+          "name": "Post Preparar Flutter estable",
+          "number": 14,
+          "startedAt": "2026-10-27T18:21:17Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:21:17Z",
+          "conclusion": "success",
+          "name": "Post Preparar Java",
+          "number": 15,
+          "startedAt": "2026-10-27T18:21:17Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:21:17Z",
+          "conclusion": "success",
+          "name": "Post Obtener el proyecto",
+          "number": 16,
+          "startedAt": "2026-10-27T18:21:17Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-27T18:21:17Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 17,
+          "startedAt": "2026-10-27T18:21:17Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40558941427/job/122382428944"
+    }
+  ],
+  "status": "completed",
+  "updatedAt": "2026-10-27T18:21:20Z",
+  "url": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40558941427"
+}

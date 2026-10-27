@@ -1,0 +1,54 @@
+{
+  "baseRefName": "main",
+  "commits": [
+    {
+      "authoredDate": "2026-10-27T18:19:38Z",
+      "authors": [
+        {
+          "email": "leoandrespadilla@gmail.com",
+          "id": "U_kgDOC5Lufw",
+          "login": "Le0Padill4",
+          "name": "Leonardo"
+        }
+      ],
+      "committedDate": "2026-10-27T18:19:38Z",
+      "messageBody": "",
+      "messageHeadline": "test: fallo intencional para ver el pipeline en rojo",
+      "oid": "5f9c0ec926f0f02fcef6b968a0d35fe88bcdf4d6"
+    },
+    {
+      "authoredDate": "2026-10-27T18:26:26Z",
+      "authors": [
+        {
+          "email": "leoandrespadilla@gmail.com",
+          "id": "U_kgDOC5Lufw",
+          "login": "Le0Padill4",
+          "name": "Leonardo"
+        }
+      ],
+      "committedDate": "2026-10-27T18:26:26Z",
+      "messageBody": "",
+      "messageHeadline": "test: restaura 27.50 en el mismo pull request",
+      "oid": "e5286904db2190e0ef206c66d123b65b8fca21d3"
+    }
+  ],
+  "headRefName": "ci/rojo-a-proposito",
+  "headRefOid": "e5286904db2190e0ef206c66d123b65b8fca21d3",
+  "mergeStateStatus": "CLEAN",
+  "number": 3,
+  "state": "OPEN",
+  "statusCheckRollup": [
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-10-27T18:31:55Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/Le0Padill4/divisor_cuenta/actions/runs/40560008349/job/122386158701",
+      "name": "verificar",
+      "startedAt": "2026-10-27T18:26:34Z",
+      "status": "COMPLETED",
+      "workflowName": "CI Flutter"
+    }
+  ],
+  "title": "Comprobar que CI bloquea y luego habilita el mismo pull request",
+  "url": "https://github.com/Le0Padill4/divisor_cuenta/pull/3"
+}

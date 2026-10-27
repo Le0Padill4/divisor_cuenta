@@ -1,0 +1,13 @@
+{
+  "baseRefName": "main",
+  "headRefName": "ci/primer-pipeline",
+  "headRefOid": "590c307e9cbdc51ab86e912492b5303fff5e7358",
+  "mergeCommit": {
+    "oid": "048f6b46c433bd883d02568e098cd9d26fe57f7e"
+  },
+  "mergedAt": "2026-10-27T18:19:06Z",
+  "number": 2,
+  "state": "MERGED",
+  "title": "CI: verificar el divisor de cuenta en cada pull request",
+  "url": "https://github.com/Le0Padill4/divisor_cuenta/pull/2"
+}
