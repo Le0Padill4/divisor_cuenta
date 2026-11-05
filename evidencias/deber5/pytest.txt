@@ -1,0 +1,5 @@
++zsh:4> /Users/leonardopadilla/Downloads/.deber5-venv/bin/mcp version
+MCP version 2.3.0
++zsh:5> /Users/leonardopadilla/Downloads/.deber5-venv/bin/python -m pytest mcp-detective -q
+.........                                                                [100%]
+9 passed in 0.23s
